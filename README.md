@@ -13,13 +13,6 @@ This project is a manually implemented Retrieval Augmented Generation system for
 
 The implementation does not use LangChain, LlamaIndex, or any pre-built RAG pipeline. The core RAG components are built manually, including cleaning, chunking, embeddings, vector storage, retrieval, context selection, prompt construction, logging, evaluation, and feedback.
 
-## Repository name
-
-Rename this repository as:
-
-```text
-ai_YOUR_INDEX_NUMBER
-```
 
 ## How to run locally
 
@@ -95,19 +88,6 @@ logs/adversarial_tests.csv
 
 ## Deployment
 
-Recommended deployment options:
-
 - Streamlit Community Cloud
-- Render
-- Hugging Face Spaces
 
-## Required submission checklist
 
-- GitHub repository link
-- Cloud deployed app URL
-- Video walkthrough under 2 minutes
-- Manual experiment logs
-- Detailed documentation
-- Architecture diagram
-- Invite godwin.danso@acity.edu.gh or GodwinDansoAcity as GitHub collaborator
-- Email subject: CS4241-Introduction to Artificial Intelligence-2026:[insert your index and name]
