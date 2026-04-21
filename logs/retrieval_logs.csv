@@ -1,0 +1,746 @@
+timestamp,query,rank,chunk_id,source,vector_score,keyword_score,feedback_score,final_score,chunk_text,final_prompt,answer
+2026-04-21T17:47:18.225646,Who won in Ahafo Region in 2020?,1,election_summary_region_2020_Ahafo_Region,Election Dataset,0.6295500993728638,0.8571428571428571,0.0,0.6864482888153621,"Regional summary for the 2020 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 145,584 votes. The runner-up was John Dramani Mahama of the NDC with 116,485 votes.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Ahafo_Region | Score: 0.6864
+Regional summary for the 2020 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 145,584 votes. The runner-up was John Dramani Mahama of the NDC with 116,485 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_row_8 | Score: 0.6365
+In the 2020 Ghana election, in Ahafo Region, Akua Donkor of the GFP received 49 votes, representing 0.02% of valid votes. The old region classification is Brong Ahafo Region and the code is Others.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_region_2016_Ahafo_Region | Score: 0.6180
+Regional summary for the 2016 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 123,139 votes. The runner-up was John Dramani Mahama of the NDC with 98,272 votes.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2012_Ahafo_Region | Score: 0.6116
+Regional summary for the 2012 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 115,226 votes. The runner-up was John Dramani Mahama of the NDC with 109,600 votes.
+
+[5] Source: Election Dataset | Chunk ID: election_row_9 | Score: 0.6045
+In the 2020 Ghana election, in Ahafo Region, Christian Kwabena Andrews of the GUM received 1,490 votes, representing 0.56% of valid votes. The old region classification is Brong Ahafo Region and the code is Others.
+
+User Question:
+Who won in Ahafo Region in 2020?
+
+Answer:
+","Nana Akufo Addo of the NPP won in Ahafo Region in 2020 with 145,584 votes. (Source: Election Dataset)"
+2026-04-21T17:47:18.226778,Who won in Ahafo Region in 2020?,2,election_row_8,Election Dataset,0.6105747818946838,0.7142857142857143,0.0,0.6365025149924415,"In the 2020 Ghana election, in Ahafo Region, Akua Donkor of the GFP received 49 votes, representing 0.02% of valid votes. The old region classification is Brong Ahafo Region and the code is Others.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Ahafo_Region | Score: 0.6864
+Regional summary for the 2020 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 145,584 votes. The runner-up was John Dramani Mahama of the NDC with 116,485 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_row_8 | Score: 0.6365
+In the 2020 Ghana election, in Ahafo Region, Akua Donkor of the GFP received 49 votes, representing 0.02% of valid votes. The old region classification is Brong Ahafo Region and the code is Others.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_region_2016_Ahafo_Region | Score: 0.6180
+Regional summary for the 2016 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 123,139 votes. The runner-up was John Dramani Mahama of the NDC with 98,272 votes.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2012_Ahafo_Region | Score: 0.6116
+Regional summary for the 2012 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 115,226 votes. The runner-up was John Dramani Mahama of the NDC with 109,600 votes.
+
+[5] Source: Election Dataset | Chunk ID: election_row_9 | Score: 0.6045
+In the 2020 Ghana election, in Ahafo Region, Christian Kwabena Andrews of the GUM received 1,490 votes, representing 0.56% of valid votes. The old region classification is Brong Ahafo Region and the code is Others.
+
+User Question:
+Who won in Ahafo Region in 2020?
+
+Answer:
+","Nana Akufo Addo of the NPP won in Ahafo Region in 2020 with 145,584 votes. (Source: Election Dataset)"
+2026-04-21T17:47:18.227197,Who won in Ahafo Region in 2020?,3,election_summary_region_2016_Ahafo_Region,Election Dataset,0.5859229564666748,0.7142857142857143,0.0,0.6180136459214347,"Regional summary for the 2016 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 123,139 votes. The runner-up was John Dramani Mahama of the NDC with 98,272 votes.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Ahafo_Region | Score: 0.6864
+Regional summary for the 2020 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 145,584 votes. The runner-up was John Dramani Mahama of the NDC with 116,485 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_row_8 | Score: 0.6365
+In the 2020 Ghana election, in Ahafo Region, Akua Donkor of the GFP received 49 votes, representing 0.02% of valid votes. The old region classification is Brong Ahafo Region and the code is Others.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_region_2016_Ahafo_Region | Score: 0.6180
+Regional summary for the 2016 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 123,139 votes. The runner-up was John Dramani Mahama of the NDC with 98,272 votes.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2012_Ahafo_Region | Score: 0.6116
+Regional summary for the 2012 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 115,226 votes. The runner-up was John Dramani Mahama of the NDC with 109,600 votes.
+
+[5] Source: Election Dataset | Chunk ID: election_row_9 | Score: 0.6045
+In the 2020 Ghana election, in Ahafo Region, Christian Kwabena Andrews of the GUM received 1,490 votes, representing 0.56% of valid votes. The old region classification is Brong Ahafo Region and the code is Others.
+
+User Question:
+Who won in Ahafo Region in 2020?
+
+Answer:
+","Nana Akufo Addo of the NPP won in Ahafo Region in 2020 with 145,584 votes. (Source: Election Dataset)"
+2026-04-21T17:47:18.227352,Who won in Ahafo Region in 2020?,4,election_summary_region_2012_Ahafo_Region,Election Dataset,0.577400267124176,0.7142857142857143,0.0,0.6116216289145606,"Regional summary for the 2012 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 115,226 votes. The runner-up was John Dramani Mahama of the NDC with 109,600 votes.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Ahafo_Region | Score: 0.6864
+Regional summary for the 2020 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 145,584 votes. The runner-up was John Dramani Mahama of the NDC with 116,485 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_row_8 | Score: 0.6365
+In the 2020 Ghana election, in Ahafo Region, Akua Donkor of the GFP received 49 votes, representing 0.02% of valid votes. The old region classification is Brong Ahafo Region and the code is Others.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_region_2016_Ahafo_Region | Score: 0.6180
+Regional summary for the 2016 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 123,139 votes. The runner-up was John Dramani Mahama of the NDC with 98,272 votes.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2012_Ahafo_Region | Score: 0.6116
+Regional summary for the 2012 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 115,226 votes. The runner-up was John Dramani Mahama of the NDC with 109,600 votes.
+
+[5] Source: Election Dataset | Chunk ID: election_row_9 | Score: 0.6045
+In the 2020 Ghana election, in Ahafo Region, Christian Kwabena Andrews of the GUM received 1,490 votes, representing 0.56% of valid votes. The old region classification is Brong Ahafo Region and the code is Others.
+
+User Question:
+Who won in Ahafo Region in 2020?
+
+Answer:
+","Nana Akufo Addo of the NPP won in Ahafo Region in 2020 with 145,584 votes. (Source: Election Dataset)"
+2026-04-21T17:47:18.227569,Who won in Ahafo Region in 2020?,5,election_row_9,Election Dataset,0.5678507685661316,0.7142857142857143,0.0,0.6044595049960273,"In the 2020 Ghana election, in Ahafo Region, Christian Kwabena Andrews of the GUM received 1,490 votes, representing 0.56% of valid votes. The old region classification is Brong Ahafo Region and the code is Others.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Ahafo_Region | Score: 0.6864
+Regional summary for the 2020 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 145,584 votes. The runner-up was John Dramani Mahama of the NDC with 116,485 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_row_8 | Score: 0.6365
+In the 2020 Ghana election, in Ahafo Region, Akua Donkor of the GFP received 49 votes, representing 0.02% of valid votes. The old region classification is Brong Ahafo Region and the code is Others.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_region_2016_Ahafo_Region | Score: 0.6180
+Regional summary for the 2016 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 123,139 votes. The runner-up was John Dramani Mahama of the NDC with 98,272 votes.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2012_Ahafo_Region | Score: 0.6116
+Regional summary for the 2012 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 115,226 votes. The runner-up was John Dramani Mahama of the NDC with 109,600 votes.
+
+[5] Source: Election Dataset | Chunk ID: election_row_9 | Score: 0.6045
+In the 2020 Ghana election, in Ahafo Region, Christian Kwabena Andrews of the GUM received 1,490 votes, representing 0.56% of valid votes. The old region classification is Brong Ahafo Region and the code is Others.
+
+User Question:
+Who won in Ahafo Region in 2020?
+
+Answer:
+","Nana Akufo Addo of the NPP won in Ahafo Region in 2020 with 145,584 votes. (Source: Election Dataset)"
+2026-04-21T17:48:44.865321,Who won the 2020 election?,1,election_summary_region_2020_Savannah_Region,Election Dataset,0.5028282999992371,0.8,0.0,0.5771212249994278,"Regional summary for the 2020 Ghana election in Savannah Region: John Dramani Mahama of the NDC won in Savannah Region with 144,244 votes. The runner-up was Nana Akufo Addo of the NPP with 80,605 votes.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Savannah_Region | Score: 0.5771
+Regional summary for the 2020 Ghana election in Savannah Region: John Dramani Mahama of the NDC won in Savannah Region with 144,244 votes. The runner-up was Nana Akufo Addo of the NPP with 80,605 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_summary_region_2020_Western_North_Region | Score: 0.5696
+Regional summary for the 2020 Ghana election in Western North Region: John Dramani Mahama of the NDC won in Western North Region with 196,556 votes. The runner-up was Nana Akufo Addo of the NPP with 175,240 votes.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_region_2020_Volta_Region | Score: 0.5675
+Regional summary for the 2020 Ghana election in Volta Region: John Dramani Mahama of the NDC won in Volta Region with 606,508 votes. The runner-up was Nana Akufo Addo of the NPP with 100,481 votes.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2020_Northern_Region | Score: 0.5674
+Regional summary for the 2020 Ghana election in Northern Region: John Dramani Mahama of the NDC won in Northern Region with 476,650 votes. The runner-up was Nana Akufo Addo of the NPP with 409,063 votes.
+
+[5] Source: Election Dataset | Chunk ID: election_summary_region_2020_Upper_East_Region | Score: 0.5631
+Regional summary for the 2020 Ghana election in Upper East Region: John Dramani Mahama of the NDC won in Upper East Region with 335,502 votes. The runner-up was Nana Akufo Addo of the NPP with 170,340 votes.
+
+User Question:
+Who won the 2020 election?
+
+Answer:
+","John Dramani Mahama of the NDC won the 2020 election in multiple regions, including Savannah, Western North, Volta, Northern, and Upper East Regions. However, the overall winner of the presidential election was Nana Akufo Addo of the NPP. I could not find this information in the provided documents."
+2026-04-21T17:48:44.866559,Who won the 2020 election?,2,election_summary_region_2020_Western_North_Region,Election Dataset,0.49276867508888245,0.8,0.0,0.5695765063166618,"Regional summary for the 2020 Ghana election in Western North Region: John Dramani Mahama of the NDC won in Western North Region with 196,556 votes. The runner-up was Nana Akufo Addo of the NPP with 175,240 votes.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Savannah_Region | Score: 0.5771
+Regional summary for the 2020 Ghana election in Savannah Region: John Dramani Mahama of the NDC won in Savannah Region with 144,244 votes. The runner-up was Nana Akufo Addo of the NPP with 80,605 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_summary_region_2020_Western_North_Region | Score: 0.5696
+Regional summary for the 2020 Ghana election in Western North Region: John Dramani Mahama of the NDC won in Western North Region with 196,556 votes. The runner-up was Nana Akufo Addo of the NPP with 175,240 votes.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_region_2020_Volta_Region | Score: 0.5675
+Regional summary for the 2020 Ghana election in Volta Region: John Dramani Mahama of the NDC won in Volta Region with 606,508 votes. The runner-up was Nana Akufo Addo of the NPP with 100,481 votes.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2020_Northern_Region | Score: 0.5674
+Regional summary for the 2020 Ghana election in Northern Region: John Dramani Mahama of the NDC won in Northern Region with 476,650 votes. The runner-up was Nana Akufo Addo of the NPP with 409,063 votes.
+
+[5] Source: Election Dataset | Chunk ID: election_summary_region_2020_Upper_East_Region | Score: 0.5631
+Regional summary for the 2020 Ghana election in Upper East Region: John Dramani Mahama of the NDC won in Upper East Region with 335,502 votes. The runner-up was Nana Akufo Addo of the NPP with 170,340 votes.
+
+User Question:
+Who won the 2020 election?
+
+Answer:
+","John Dramani Mahama of the NDC won the 2020 election in multiple regions, including Savannah, Western North, Volta, Northern, and Upper East Regions. However, the overall winner of the presidential election was Nana Akufo Addo of the NPP. I could not find this information in the provided documents."
+2026-04-21T17:48:44.866857,Who won the 2020 election?,3,election_summary_region_2020_Volta_Region,Election Dataset,0.4900479316711426,0.8,0.0,0.5675359487533569,"Regional summary for the 2020 Ghana election in Volta Region: John Dramani Mahama of the NDC won in Volta Region with 606,508 votes. The runner-up was Nana Akufo Addo of the NPP with 100,481 votes.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Savannah_Region | Score: 0.5771
+Regional summary for the 2020 Ghana election in Savannah Region: John Dramani Mahama of the NDC won in Savannah Region with 144,244 votes. The runner-up was Nana Akufo Addo of the NPP with 80,605 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_summary_region_2020_Western_North_Region | Score: 0.5696
+Regional summary for the 2020 Ghana election in Western North Region: John Dramani Mahama of the NDC won in Western North Region with 196,556 votes. The runner-up was Nana Akufo Addo of the NPP with 175,240 votes.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_region_2020_Volta_Region | Score: 0.5675
+Regional summary for the 2020 Ghana election in Volta Region: John Dramani Mahama of the NDC won in Volta Region with 606,508 votes. The runner-up was Nana Akufo Addo of the NPP with 100,481 votes.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2020_Northern_Region | Score: 0.5674
+Regional summary for the 2020 Ghana election in Northern Region: John Dramani Mahama of the NDC won in Northern Region with 476,650 votes. The runner-up was Nana Akufo Addo of the NPP with 409,063 votes.
+
+[5] Source: Election Dataset | Chunk ID: election_summary_region_2020_Upper_East_Region | Score: 0.5631
+Regional summary for the 2020 Ghana election in Upper East Region: John Dramani Mahama of the NDC won in Upper East Region with 335,502 votes. The runner-up was Nana Akufo Addo of the NPP with 170,340 votes.
+
+User Question:
+Who won the 2020 election?
+
+Answer:
+","John Dramani Mahama of the NDC won the 2020 election in multiple regions, including Savannah, Western North, Volta, Northern, and Upper East Regions. However, the overall winner of the presidential election was Nana Akufo Addo of the NPP. I could not find this information in the provided documents."
+2026-04-21T17:48:44.867006,Who won the 2020 election?,4,election_summary_region_2020_Northern_Region,Election Dataset,0.4898999035358429,0.8,0.0,0.5674249276518821,"Regional summary for the 2020 Ghana election in Northern Region: John Dramani Mahama of the NDC won in Northern Region with 476,650 votes. The runner-up was Nana Akufo Addo of the NPP with 409,063 votes.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Savannah_Region | Score: 0.5771
+Regional summary for the 2020 Ghana election in Savannah Region: John Dramani Mahama of the NDC won in Savannah Region with 144,244 votes. The runner-up was Nana Akufo Addo of the NPP with 80,605 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_summary_region_2020_Western_North_Region | Score: 0.5696
+Regional summary for the 2020 Ghana election in Western North Region: John Dramani Mahama of the NDC won in Western North Region with 196,556 votes. The runner-up was Nana Akufo Addo of the NPP with 175,240 votes.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_region_2020_Volta_Region | Score: 0.5675
+Regional summary for the 2020 Ghana election in Volta Region: John Dramani Mahama of the NDC won in Volta Region with 606,508 votes. The runner-up was Nana Akufo Addo of the NPP with 100,481 votes.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2020_Northern_Region | Score: 0.5674
+Regional summary for the 2020 Ghana election in Northern Region: John Dramani Mahama of the NDC won in Northern Region with 476,650 votes. The runner-up was Nana Akufo Addo of the NPP with 409,063 votes.
+
+[5] Source: Election Dataset | Chunk ID: election_summary_region_2020_Upper_East_Region | Score: 0.5631
+Regional summary for the 2020 Ghana election in Upper East Region: John Dramani Mahama of the NDC won in Upper East Region with 335,502 votes. The runner-up was Nana Akufo Addo of the NPP with 170,340 votes.
+
+User Question:
+Who won the 2020 election?
+
+Answer:
+","John Dramani Mahama of the NDC won the 2020 election in multiple regions, including Savannah, Western North, Volta, Northern, and Upper East Regions. However, the overall winner of the presidential election was Nana Akufo Addo of the NPP. I could not find this information in the provided documents."
+2026-04-21T17:48:44.867179,Who won the 2020 election?,5,election_summary_region_2020_Upper_East_Region,Election Dataset,0.4841826856136322,0.8,0.0,0.5631370142102241,"Regional summary for the 2020 Ghana election in Upper East Region: John Dramani Mahama of the NDC won in Upper East Region with 335,502 votes. The runner-up was Nana Akufo Addo of the NPP with 170,340 votes.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Savannah_Region | Score: 0.5771
+Regional summary for the 2020 Ghana election in Savannah Region: John Dramani Mahama of the NDC won in Savannah Region with 144,244 votes. The runner-up was Nana Akufo Addo of the NPP with 80,605 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_summary_region_2020_Western_North_Region | Score: 0.5696
+Regional summary for the 2020 Ghana election in Western North Region: John Dramani Mahama of the NDC won in Western North Region with 196,556 votes. The runner-up was Nana Akufo Addo of the NPP with 175,240 votes.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_region_2020_Volta_Region | Score: 0.5675
+Regional summary for the 2020 Ghana election in Volta Region: John Dramani Mahama of the NDC won in Volta Region with 606,508 votes. The runner-up was Nana Akufo Addo of the NPP with 100,481 votes.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2020_Northern_Region | Score: 0.5674
+Regional summary for the 2020 Ghana election in Northern Region: John Dramani Mahama of the NDC won in Northern Region with 476,650 votes. The runner-up was Nana Akufo Addo of the NPP with 409,063 votes.
+
+[5] Source: Election Dataset | Chunk ID: election_summary_region_2020_Upper_East_Region | Score: 0.5631
+Regional summary for the 2020 Ghana election in Upper East Region: John Dramani Mahama of the NDC won in Upper East Region with 335,502 votes. The runner-up was Nana Akufo Addo of the NPP with 170,340 votes.
+
+User Question:
+Who won the 2020 election?
+
+Answer:
+","John Dramani Mahama of the NDC won the 2020 election in multiple regions, including Savannah, Western North, Volta, Northern, and Upper East Regions. However, the overall winner of the presidential election was Nana Akufo Addo of the NPP. I could not find this information in the provided documents."
+2026-04-21T17:49:16.147564,Compare NPP and NDC votes in Ahafo Region in 2020.,1,election_summary_region_2020_Ahafo_Region,Election Dataset,0.6863566637039185,0.8,0.0,0.7147674977779388,"Regional summary for the 2020 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 145,584 votes. The runner-up was John Dramani Mahama of the NDC with 116,485 votes.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Ahafo_Region | Score: 0.7148
+Regional summary for the 2020 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 145,584 votes. The runner-up was John Dramani Mahama of the NDC with 116,485 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_row_0 | Score: 0.7056
+In the 2020 Ghana election, in Ahafo Region, Nana Akufo Addo of the NPP received 145,584 votes, representing 55.04% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[3] Source: Election Dataset | Chunk ID: election_row_36 | Score: 0.6814
+In the 2020 Ghana election, in Bono East Region, Nana Akufo Addo of the NPP received 199,720 votes, representing 42.33% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[4] Source: Election Dataset | Chunk ID: election_row_24 | Score: 0.6800
+In the 2020 Ghana election, in Bono Region, Nana Akufo Addo of the NPP received 292,604 votes, representing 58.23% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[5] Source: Election Dataset | Chunk ID: election_row_1 | Score: 0.6741
+In the 2020 Ghana election, in Ahafo Region, John Dramani Mahama of the NDC received 116,485 votes, representing 44.04% of valid votes. The old region classification is Brong Ahafo Region and the code is NDC.
+
+User Question:
+Compare NPP and NDC votes in Ahafo Region in 2020.
+
+Answer:
+","In the 2020 Ghana election in Ahafo Region, Nana Akufo Addo of the NPP received 145,584 votes, representing 55.04% of valid votes, while John Dramani Mahama of the NDC received 116,485 votes, representing 44.04% of valid votes. This indicates that the NPP received more votes than the NDC in this region. 
+
+(Source: Election Dataset)"
+2026-04-21T17:49:16.150056,Compare NPP and NDC votes in Ahafo Region in 2020.,2,election_row_0,Election Dataset,0.6741904020309448,0.8,0.0,0.7056428015232086,"In the 2020 Ghana election, in Ahafo Region, Nana Akufo Addo of the NPP received 145,584 votes, representing 55.04% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Ahafo_Region | Score: 0.7148
+Regional summary for the 2020 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 145,584 votes. The runner-up was John Dramani Mahama of the NDC with 116,485 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_row_0 | Score: 0.7056
+In the 2020 Ghana election, in Ahafo Region, Nana Akufo Addo of the NPP received 145,584 votes, representing 55.04% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[3] Source: Election Dataset | Chunk ID: election_row_36 | Score: 0.6814
+In the 2020 Ghana election, in Bono East Region, Nana Akufo Addo of the NPP received 199,720 votes, representing 42.33% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[4] Source: Election Dataset | Chunk ID: election_row_24 | Score: 0.6800
+In the 2020 Ghana election, in Bono Region, Nana Akufo Addo of the NPP received 292,604 votes, representing 58.23% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[5] Source: Election Dataset | Chunk ID: election_row_1 | Score: 0.6741
+In the 2020 Ghana election, in Ahafo Region, John Dramani Mahama of the NDC received 116,485 votes, representing 44.04% of valid votes. The old region classification is Brong Ahafo Region and the code is NDC.
+
+User Question:
+Compare NPP and NDC votes in Ahafo Region in 2020.
+
+Answer:
+","In the 2020 Ghana election in Ahafo Region, Nana Akufo Addo of the NPP received 145,584 votes, representing 55.04% of valid votes, while John Dramani Mahama of the NDC received 116,485 votes, representing 44.04% of valid votes. This indicates that the NPP received more votes than the NDC in this region. 
+
+(Source: Election Dataset)"
+2026-04-21T17:49:16.150680,Compare NPP and NDC votes in Ahafo Region in 2020.,3,election_row_36,Election Dataset,0.6419254541397095,0.8,0.0,0.6814440906047821,"In the 2020 Ghana election, in Bono East Region, Nana Akufo Addo of the NPP received 199,720 votes, representing 42.33% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Ahafo_Region | Score: 0.7148
+Regional summary for the 2020 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 145,584 votes. The runner-up was John Dramani Mahama of the NDC with 116,485 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_row_0 | Score: 0.7056
+In the 2020 Ghana election, in Ahafo Region, Nana Akufo Addo of the NPP received 145,584 votes, representing 55.04% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[3] Source: Election Dataset | Chunk ID: election_row_36 | Score: 0.6814
+In the 2020 Ghana election, in Bono East Region, Nana Akufo Addo of the NPP received 199,720 votes, representing 42.33% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[4] Source: Election Dataset | Chunk ID: election_row_24 | Score: 0.6800
+In the 2020 Ghana election, in Bono Region, Nana Akufo Addo of the NPP received 292,604 votes, representing 58.23% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[5] Source: Election Dataset | Chunk ID: election_row_1 | Score: 0.6741
+In the 2020 Ghana election, in Ahafo Region, John Dramani Mahama of the NDC received 116,485 votes, representing 44.04% of valid votes. The old region classification is Brong Ahafo Region and the code is NDC.
+
+User Question:
+Compare NPP and NDC votes in Ahafo Region in 2020.
+
+Answer:
+","In the 2020 Ghana election in Ahafo Region, Nana Akufo Addo of the NPP received 145,584 votes, representing 55.04% of valid votes, while John Dramani Mahama of the NDC received 116,485 votes, representing 44.04% of valid votes. This indicates that the NPP received more votes than the NDC in this region. 
+
+(Source: Election Dataset)"
+2026-04-21T17:49:16.151353,Compare NPP and NDC votes in Ahafo Region in 2020.,4,election_row_24,Election Dataset,0.6399967670440674,0.8,0.0,0.6799975752830505,"In the 2020 Ghana election, in Bono Region, Nana Akufo Addo of the NPP received 292,604 votes, representing 58.23% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Ahafo_Region | Score: 0.7148
+Regional summary for the 2020 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 145,584 votes. The runner-up was John Dramani Mahama of the NDC with 116,485 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_row_0 | Score: 0.7056
+In the 2020 Ghana election, in Ahafo Region, Nana Akufo Addo of the NPP received 145,584 votes, representing 55.04% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[3] Source: Election Dataset | Chunk ID: election_row_36 | Score: 0.6814
+In the 2020 Ghana election, in Bono East Region, Nana Akufo Addo of the NPP received 199,720 votes, representing 42.33% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[4] Source: Election Dataset | Chunk ID: election_row_24 | Score: 0.6800
+In the 2020 Ghana election, in Bono Region, Nana Akufo Addo of the NPP received 292,604 votes, representing 58.23% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[5] Source: Election Dataset | Chunk ID: election_row_1 | Score: 0.6741
+In the 2020 Ghana election, in Ahafo Region, John Dramani Mahama of the NDC received 116,485 votes, representing 44.04% of valid votes. The old region classification is Brong Ahafo Region and the code is NDC.
+
+User Question:
+Compare NPP and NDC votes in Ahafo Region in 2020.
+
+Answer:
+","In the 2020 Ghana election in Ahafo Region, Nana Akufo Addo of the NPP received 145,584 votes, representing 55.04% of valid votes, while John Dramani Mahama of the NDC received 116,485 votes, representing 44.04% of valid votes. This indicates that the NPP received more votes than the NDC in this region. 
+
+(Source: Election Dataset)"
+2026-04-21T17:49:16.151630,Compare NPP and NDC votes in Ahafo Region in 2020.,5,election_row_1,Election Dataset,0.6320720911026001,0.8,0.0,0.67405406832695,"In the 2020 Ghana election, in Ahafo Region, John Dramani Mahama of the NDC received 116,485 votes, representing 44.04% of valid votes. The old region classification is Brong Ahafo Region and the code is NDC.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_region_2020_Ahafo_Region | Score: 0.7148
+Regional summary for the 2020 Ghana election in Ahafo Region: Nana Akufo Addo of the NPP won in Ahafo Region with 145,584 votes. The runner-up was John Dramani Mahama of the NDC with 116,485 votes.
+
+[2] Source: Election Dataset | Chunk ID: election_row_0 | Score: 0.7056
+In the 2020 Ghana election, in Ahafo Region, Nana Akufo Addo of the NPP received 145,584 votes, representing 55.04% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[3] Source: Election Dataset | Chunk ID: election_row_36 | Score: 0.6814
+In the 2020 Ghana election, in Bono East Region, Nana Akufo Addo of the NPP received 199,720 votes, representing 42.33% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[4] Source: Election Dataset | Chunk ID: election_row_24 | Score: 0.6800
+In the 2020 Ghana election, in Bono Region, Nana Akufo Addo of the NPP received 292,604 votes, representing 58.23% of valid votes. The old region classification is Brong Ahafo Region and the code is NPP.
+
+[5] Source: Election Dataset | Chunk ID: election_row_1 | Score: 0.6741
+In the 2020 Ghana election, in Ahafo Region, John Dramani Mahama of the NDC received 116,485 votes, representing 44.04% of valid votes. The old region classification is Brong Ahafo Region and the code is NDC.
+
+User Question:
+Compare NPP and NDC votes in Ahafo Region in 2020.
+
+Answer:
+","In the 2020 Ghana election in Ahafo Region, Nana Akufo Addo of the NPP received 145,584 votes, representing 55.04% of valid votes, while John Dramani Mahama of the NDC received 116,485 votes, representing 44.04% of valid votes. This indicates that the NPP received more votes than the NDC in this region. 
+
+(Source: Election Dataset)"
+2026-04-21T17:49:38.235719,What does the 2025 budget say about economic policy?,1,budget_p4_0,Budget Statement,0.6215785145759583,0.5555555555555556,0.0,0.6050727748208575,"THE 2025 BUDGET STATEMENT AND ECONOMIC POLICY OF GOVERNMENT The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year is available for public access. To purchase a physical copy, please contact the Ministry’s Public Relations Office at: Ministry of Finance Public Relations Office New Building, Ground Floor, Rooms 001 and 003 P. O. Box MB 40 Accra – Ghana Electronic copies can be downloaded from our website (www.mofep.gov.gh)","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Budget Statement | Chunk ID: budget_p4_0 | Score: 0.6051
+THE 2025 BUDGET STATEMENT AND ECONOMIC POLICY OF GOVERNMENT The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year is available for public access. To purchase a physical copy, please contact the Ministry’s Public Relations Office at: Ministry of Finance Public Relations Office New Building, Ground Floor, Rooms 001 and 003 P. O. Box MB 40 Accra – Ghana Electronic copies can be downloaded from our website (www.mofep.gov.gh)
+
+[2] Source: Budget Statement | Chunk ID: budget_p77_0 | Score: 0.6023
+Resetting the Economy for the Ghana We Want 2025 Budget 65 iii End period inflation is expected to moderate from 23.8 percent in 2024 to 11.9 percent in 2025 and further to 8 percent from 2026 onwards; iv The Primary Balance on commitment basis is projected to improve from a deficit of 3.9 percent of GDP in 2024 to a surplus of 1.5 percent of GDP in 2025 and remain at a surplus of at least 1.5 percent of GDP from 2026 onwards; and v Gross International Reserve (including oil funds and encumbered/pledged assets) is expected to cover at least three (3) months of import of goods and services in 2025 and the medium-term. Medium-Term Fiscal Policy Framework 343. Mr. Speaker, the 2025 fiscal framework reflects a bold and decisive effort to restore macroeconomic stability and ensure fiscal and debt sustainability. To this end, the government is undertaking a significant fiscal adjustment of about 5.3 percentage points of GDP—one of the most ambitious in our history. The primary balance (commitment) is therefore programmed to improve from a deficit of 3.9 percent of GDP to a surplus of 1.5 percent of GDP. This adjustment is necessary to correct the unsustainable fiscal position inherited from the previous administration and to realign our public finances with government’s economic recovery objectives. 344. Mr. Speaker, we will sustain this momentum over the medium-term, with the primary balance on commitment basis maintained at a surplus of not less than 1.5 percent of GDP from 2026 and beyond. This commitment underscores our resolve to ensure debt sustainability, and create the fiscal space needed for long-term economic growth. 345. Mr. Speaker, we believe that the amendment of the Fiscal Responsibility Act, 2018 (Act 982), programmed to be enacted by Parliament alongside the approval of this budget, to include a debt rule and legislate an independent fiscal council to monitor the adherence to fiscal targets, will greatly support the achievement of fiscal targets for 2025 and the medium-term. 346. Mr. Speaker, to achieve this fiscal objective, Total Revenue and Grants are projected to moderate from 15.9 percent of GDP
+
+[3] Source: Budget Statement | Chunk ID: budget_p3_0 | Score: 0.5783
+The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year Presented to Parliament by DR. CASSIEL ATO FORSON (MP) MINISTER FOR FINANCE On Tuesday March 11, 2025 On the Authority of HIS EXCELLENCY JOHN DRAMANI MAHAMA PRESIDENT OF THE REPUBLIC OF GHANA In accordance with Section 28 of the Public Financial Management Act, 2016 (Act 921)
+
+[4] Source: Budget Statement | Chunk ID: budget_p14_0 | Score: 0.5761
+Resetting the Economy for the Ghana We Want 2025 Budget 2 and increasingly export-driven industrial economy that fully utilises our national resources, capital and labour power. 8. We will be presenting the 24-Hour Economy policy to Parliament in due course. In this respect, the Labour Act, the Ghana Investment Promotion Centre Act and other enabling legislations will be reviewed. 9. Mr. Speaker, as part of efforts to stabilise the Cedi through foreign exchange and gold reserve accumulation, I will also submit a Bill to provide a legal framework for the establishment of the Ghana Gold Board for the consideration of this Honourable House. 10. Mr. Speaker, this Budget Speech is an abridged version of the 2025 Budget Statement and Economic Policy of Government. 11. I respectfully request the Hansard Department to capture the entire Budget Statement and Economic Policy of Government for the year ending 31st December 2025. 12. Mr. Speaker, standing here evokes a sense of nostalgia as I reflect on my journey in public service. From my early days as a young parliamentarian in 2009, destiny has guided my path—from a backbencher and a member of the Finance Committee, to Deputy Minister for Finance, to Ranking Member of the Finance Committee, to Minority Leader, to Majority Leader and now, Minister responsible for Finance. 13. The invaluable experience I gained in this chamber has shaped my perspective, sharpened my focus, and prepared me for the task at hand. I fully commit to supporting the President to fix the economy. 14. I take this opportunity to extend my profound gratitude to the people of Ajumako Enyan Essiam, and to Mr. Speaker and members of this House, for your unwavering support throughout the years. 15. Mr. Speaker, this esteemed House is a sanctuary of rigorous debate, principled cooperation, and at times, constructive disagreement—all in the pursuit of the greater good of our beloved country. 16. I look forward to working with you, the Right Honourable Speaker, and my colleagues on both sides of the aisle, to reset Ghana’s economy through sound policy and structural reforms that will propel our nation forward.
+
+[5] Source: Budget Statement | Chunk ID: budget_p135_0 | Score: 0.5672
+Resetting the Economy for the Ghana We Want 2025 Budget 123 SECTION 7: CONCLUSION 757. Mr. Speaker, the state of the economy as I have just presented, does not reflect an economy that has turned the corner; it reflects an economy in severe distress, burdened by debt repayment humps, mismanagement and a lack of accountability. 758. This budget sets Ghana on a path of fiscal responsibility, debt sustainability, macroeconomic stability and job creation. It is about resetting the economy and restoring hope. 759. Ghanaians reaffirmed their faith in a better future when they actively participated in the National Economic Dialogue on 3rd and 4th March, 2025. 760. A key outcome of the Dialogue was the confirmation that the fundamental problem with our economy is fiscal indiscipline. 761. The NPP administration awarded contracts outside the expenditure framework. 762. They borrowed over and above Ghana’s capacity to repay. 763. Mr. Speaker, H.E John Mahama’s administration will be fiscally disciplined and deliver improved public services to our people in a cost-effective manner. 764. We remain steadfast in meeting the IMF programme targets while restoring Ghana’s creditworthiness. 765. We have achieved a lot in a short time, but this is only the beginning. Our commitment to reform will not waver. 766. Those who doubt our resolve underestimate the determination of the people of Ghana, who will no longer tolerate ineffective governance. 767. Together, we will navigate these turbulent times and emerge stronger. 768. Mr. Speaker, we are making progress: i. We committed to running a lean and efficient government of 60 ministers – We have delivered! ii. We committed to Scrapping the E-Levy – We have delivered! iii. We committed to scrapping the Betting (winnings) tax – We have delivered! iv. We committed to eliminate academic fees for first year public tertiary students – We have delivered! v. We committed to providing free tertiary education for all People with Disability – We have delivered! vi. We committed to having a dedicated source of funding for free secondary education – We have delivered!
+
+User Question:
+What does the 2025 budget say about economic policy?
+
+Answer:
+","The 2025 Budget Statement emphasizes a bold and decisive effort to restore macroeconomic stability and ensure fiscal and debt sustainability. It outlines a significant fiscal adjustment of about 5.3 percentage points of GDP, aiming to improve the primary balance from a deficit of 3.9 percent of GDP in 2024 to a surplus of 1.5 percent of GDP in 2025, and maintaining this surplus in the medium-term. The budget also highlights the need for fiscal discipline and accountability, addressing issues inherited from the previous administration, and includes commitments to reform and improve public services. (Source: Budget Statement)"
+2026-04-21T17:49:38.238083,What does the 2025 budget say about economic policy?,2,budget_p77_0,Budget Statement,0.5808819532394409,0.6666666666666666,0.0,0.6023281315962473,"Resetting the Economy for the Ghana We Want 2025 Budget 65 iii End period inflation is expected to moderate from 23.8 percent in 2024 to 11.9 percent in 2025 and further to 8 percent from 2026 onwards; iv The Primary Balance on commitment basis is projected to improve from a deficit of 3.9 percent of GDP in 2024 to a surplus of 1.5 percent of GDP in 2025 and remain at a surplus of at least 1.5 percent of GDP from 2026 onwards; and v Gross International Reserve (including oil funds and encumbered/pledged assets) is expected to cover at least three (3) months of import of goods and services in 2025 and the medium-term. Medium-Term Fiscal Policy Framework 343. Mr. Speaker, the 2025 fiscal framework reflects a bold and decisive effort to restore macroeconomic stability and ensure fiscal and debt sustainability. To this end, the government is undertaking a significant fiscal adjustment of about 5.3 percentage points of GDP—one of the most ambitious in our history. The primary balance (commitment) is therefore programmed to improve from a deficit of 3.9 percent of GDP to a surplus of 1.5 percent of GDP. This adjustment is necessary to correct the unsustainable fiscal position inherited from the previous administration and to realign our public finances with government’s economic recovery objectives. 344. Mr. Speaker, we will sustain this momentum over the medium-term, with the primary balance on commitment basis maintained at a surplus of not less than 1.5 percent of GDP from 2026 and beyond. This commitment underscores our resolve to ensure debt sustainability, and create the fiscal space needed for long-term economic growth. 345. Mr. Speaker, we believe that the amendment of the Fiscal Responsibility Act, 2018 (Act 982), programmed to be enacted by Parliament alongside the approval of this budget, to include a debt rule and legislate an independent fiscal council to monitor the adherence to fiscal targets, will greatly support the achievement of fiscal targets for 2025 and the medium-term. 346. Mr. Speaker, to achieve this fiscal objective, Total Revenue and Grants are projected to moderate from 15.9 percent of GDP","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Budget Statement | Chunk ID: budget_p4_0 | Score: 0.6051
+THE 2025 BUDGET STATEMENT AND ECONOMIC POLICY OF GOVERNMENT The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year is available for public access. To purchase a physical copy, please contact the Ministry’s Public Relations Office at: Ministry of Finance Public Relations Office New Building, Ground Floor, Rooms 001 and 003 P. O. Box MB 40 Accra – Ghana Electronic copies can be downloaded from our website (www.mofep.gov.gh)
+
+[2] Source: Budget Statement | Chunk ID: budget_p77_0 | Score: 0.6023
+Resetting the Economy for the Ghana We Want 2025 Budget 65 iii End period inflation is expected to moderate from 23.8 percent in 2024 to 11.9 percent in 2025 and further to 8 percent from 2026 onwards; iv The Primary Balance on commitment basis is projected to improve from a deficit of 3.9 percent of GDP in 2024 to a surplus of 1.5 percent of GDP in 2025 and remain at a surplus of at least 1.5 percent of GDP from 2026 onwards; and v Gross International Reserve (including oil funds and encumbered/pledged assets) is expected to cover at least three (3) months of import of goods and services in 2025 and the medium-term. Medium-Term Fiscal Policy Framework 343. Mr. Speaker, the 2025 fiscal framework reflects a bold and decisive effort to restore macroeconomic stability and ensure fiscal and debt sustainability. To this end, the government is undertaking a significant fiscal adjustment of about 5.3 percentage points of GDP—one of the most ambitious in our history. The primary balance (commitment) is therefore programmed to improve from a deficit of 3.9 percent of GDP to a surplus of 1.5 percent of GDP. This adjustment is necessary to correct the unsustainable fiscal position inherited from the previous administration and to realign our public finances with government’s economic recovery objectives. 344. Mr. Speaker, we will sustain this momentum over the medium-term, with the primary balance on commitment basis maintained at a surplus of not less than 1.5 percent of GDP from 2026 and beyond. This commitment underscores our resolve to ensure debt sustainability, and create the fiscal space needed for long-term economic growth. 345. Mr. Speaker, we believe that the amendment of the Fiscal Responsibility Act, 2018 (Act 982), programmed to be enacted by Parliament alongside the approval of this budget, to include a debt rule and legislate an independent fiscal council to monitor the adherence to fiscal targets, will greatly support the achievement of fiscal targets for 2025 and the medium-term. 346. Mr. Speaker, to achieve this fiscal objective, Total Revenue and Grants are projected to moderate from 15.9 percent of GDP
+
+[3] Source: Budget Statement | Chunk ID: budget_p3_0 | Score: 0.5783
+The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year Presented to Parliament by DR. CASSIEL ATO FORSON (MP) MINISTER FOR FINANCE On Tuesday March 11, 2025 On the Authority of HIS EXCELLENCY JOHN DRAMANI MAHAMA PRESIDENT OF THE REPUBLIC OF GHANA In accordance with Section 28 of the Public Financial Management Act, 2016 (Act 921)
+
+[4] Source: Budget Statement | Chunk ID: budget_p14_0 | Score: 0.5761
+Resetting the Economy for the Ghana We Want 2025 Budget 2 and increasingly export-driven industrial economy that fully utilises our national resources, capital and labour power. 8. We will be presenting the 24-Hour Economy policy to Parliament in due course. In this respect, the Labour Act, the Ghana Investment Promotion Centre Act and other enabling legislations will be reviewed. 9. Mr. Speaker, as part of efforts to stabilise the Cedi through foreign exchange and gold reserve accumulation, I will also submit a Bill to provide a legal framework for the establishment of the Ghana Gold Board for the consideration of this Honourable House. 10. Mr. Speaker, this Budget Speech is an abridged version of the 2025 Budget Statement and Economic Policy of Government. 11. I respectfully request the Hansard Department to capture the entire Budget Statement and Economic Policy of Government for the year ending 31st December 2025. 12. Mr. Speaker, standing here evokes a sense of nostalgia as I reflect on my journey in public service. From my early days as a young parliamentarian in 2009, destiny has guided my path—from a backbencher and a member of the Finance Committee, to Deputy Minister for Finance, to Ranking Member of the Finance Committee, to Minority Leader, to Majority Leader and now, Minister responsible for Finance. 13. The invaluable experience I gained in this chamber has shaped my perspective, sharpened my focus, and prepared me for the task at hand. I fully commit to supporting the President to fix the economy. 14. I take this opportunity to extend my profound gratitude to the people of Ajumako Enyan Essiam, and to Mr. Speaker and members of this House, for your unwavering support throughout the years. 15. Mr. Speaker, this esteemed House is a sanctuary of rigorous debate, principled cooperation, and at times, constructive disagreement—all in the pursuit of the greater good of our beloved country. 16. I look forward to working with you, the Right Honourable Speaker, and my colleagues on both sides of the aisle, to reset Ghana’s economy through sound policy and structural reforms that will propel our nation forward.
+
+[5] Source: Budget Statement | Chunk ID: budget_p135_0 | Score: 0.5672
+Resetting the Economy for the Ghana We Want 2025 Budget 123 SECTION 7: CONCLUSION 757. Mr. Speaker, the state of the economy as I have just presented, does not reflect an economy that has turned the corner; it reflects an economy in severe distress, burdened by debt repayment humps, mismanagement and a lack of accountability. 758. This budget sets Ghana on a path of fiscal responsibility, debt sustainability, macroeconomic stability and job creation. It is about resetting the economy and restoring hope. 759. Ghanaians reaffirmed their faith in a better future when they actively participated in the National Economic Dialogue on 3rd and 4th March, 2025. 760. A key outcome of the Dialogue was the confirmation that the fundamental problem with our economy is fiscal indiscipline. 761. The NPP administration awarded contracts outside the expenditure framework. 762. They borrowed over and above Ghana’s capacity to repay. 763. Mr. Speaker, H.E John Mahama’s administration will be fiscally disciplined and deliver improved public services to our people in a cost-effective manner. 764. We remain steadfast in meeting the IMF programme targets while restoring Ghana’s creditworthiness. 765. We have achieved a lot in a short time, but this is only the beginning. Our commitment to reform will not waver. 766. Those who doubt our resolve underestimate the determination of the people of Ghana, who will no longer tolerate ineffective governance. 767. Together, we will navigate these turbulent times and emerge stronger. 768. Mr. Speaker, we are making progress: i. We committed to running a lean and efficient government of 60 ministers – We have delivered! ii. We committed to Scrapping the E-Levy – We have delivered! iii. We committed to scrapping the Betting (winnings) tax – We have delivered! iv. We committed to eliminate academic fees for first year public tertiary students – We have delivered! v. We committed to providing free tertiary education for all People with Disability – We have delivered! vi. We committed to having a dedicated source of funding for free secondary education – We have delivered!
+
+User Question:
+What does the 2025 budget say about economic policy?
+
+Answer:
+","The 2025 Budget Statement emphasizes a bold and decisive effort to restore macroeconomic stability and ensure fiscal and debt sustainability. It outlines a significant fiscal adjustment of about 5.3 percentage points of GDP, aiming to improve the primary balance from a deficit of 3.9 percent of GDP in 2024 to a surplus of 1.5 percent of GDP in 2025, and maintaining this surplus in the medium-term. The budget also highlights the need for fiscal discipline and accountability, addressing issues inherited from the previous administration, and includes commitments to reform and improve public services. (Source: Budget Statement)"
+2026-04-21T17:49:38.239174,What does the 2025 budget say about economic policy?,3,budget_p3_0,Budget Statement,0.5858986973762512,0.5555555555555556,0.0,0.5783129119210773,"The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year Presented to Parliament by DR. CASSIEL ATO FORSON (MP) MINISTER FOR FINANCE On Tuesday March 11, 2025 On the Authority of HIS EXCELLENCY JOHN DRAMANI MAHAMA PRESIDENT OF THE REPUBLIC OF GHANA In accordance with Section 28 of the Public Financial Management Act, 2016 (Act 921)","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Budget Statement | Chunk ID: budget_p4_0 | Score: 0.6051
+THE 2025 BUDGET STATEMENT AND ECONOMIC POLICY OF GOVERNMENT The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year is available for public access. To purchase a physical copy, please contact the Ministry’s Public Relations Office at: Ministry of Finance Public Relations Office New Building, Ground Floor, Rooms 001 and 003 P. O. Box MB 40 Accra – Ghana Electronic copies can be downloaded from our website (www.mofep.gov.gh)
+
+[2] Source: Budget Statement | Chunk ID: budget_p77_0 | Score: 0.6023
+Resetting the Economy for the Ghana We Want 2025 Budget 65 iii End period inflation is expected to moderate from 23.8 percent in 2024 to 11.9 percent in 2025 and further to 8 percent from 2026 onwards; iv The Primary Balance on commitment basis is projected to improve from a deficit of 3.9 percent of GDP in 2024 to a surplus of 1.5 percent of GDP in 2025 and remain at a surplus of at least 1.5 percent of GDP from 2026 onwards; and v Gross International Reserve (including oil funds and encumbered/pledged assets) is expected to cover at least three (3) months of import of goods and services in 2025 and the medium-term. Medium-Term Fiscal Policy Framework 343. Mr. Speaker, the 2025 fiscal framework reflects a bold and decisive effort to restore macroeconomic stability and ensure fiscal and debt sustainability. To this end, the government is undertaking a significant fiscal adjustment of about 5.3 percentage points of GDP—one of the most ambitious in our history. The primary balance (commitment) is therefore programmed to improve from a deficit of 3.9 percent of GDP to a surplus of 1.5 percent of GDP. This adjustment is necessary to correct the unsustainable fiscal position inherited from the previous administration and to realign our public finances with government’s economic recovery objectives. 344. Mr. Speaker, we will sustain this momentum over the medium-term, with the primary balance on commitment basis maintained at a surplus of not less than 1.5 percent of GDP from 2026 and beyond. This commitment underscores our resolve to ensure debt sustainability, and create the fiscal space needed for long-term economic growth. 345. Mr. Speaker, we believe that the amendment of the Fiscal Responsibility Act, 2018 (Act 982), programmed to be enacted by Parliament alongside the approval of this budget, to include a debt rule and legislate an independent fiscal council to monitor the adherence to fiscal targets, will greatly support the achievement of fiscal targets for 2025 and the medium-term. 346. Mr. Speaker, to achieve this fiscal objective, Total Revenue and Grants are projected to moderate from 15.9 percent of GDP
+
+[3] Source: Budget Statement | Chunk ID: budget_p3_0 | Score: 0.5783
+The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year Presented to Parliament by DR. CASSIEL ATO FORSON (MP) MINISTER FOR FINANCE On Tuesday March 11, 2025 On the Authority of HIS EXCELLENCY JOHN DRAMANI MAHAMA PRESIDENT OF THE REPUBLIC OF GHANA In accordance with Section 28 of the Public Financial Management Act, 2016 (Act 921)
+
+[4] Source: Budget Statement | Chunk ID: budget_p14_0 | Score: 0.5761
+Resetting the Economy for the Ghana We Want 2025 Budget 2 and increasingly export-driven industrial economy that fully utilises our national resources, capital and labour power. 8. We will be presenting the 24-Hour Economy policy to Parliament in due course. In this respect, the Labour Act, the Ghana Investment Promotion Centre Act and other enabling legislations will be reviewed. 9. Mr. Speaker, as part of efforts to stabilise the Cedi through foreign exchange and gold reserve accumulation, I will also submit a Bill to provide a legal framework for the establishment of the Ghana Gold Board for the consideration of this Honourable House. 10. Mr. Speaker, this Budget Speech is an abridged version of the 2025 Budget Statement and Economic Policy of Government. 11. I respectfully request the Hansard Department to capture the entire Budget Statement and Economic Policy of Government for the year ending 31st December 2025. 12. Mr. Speaker, standing here evokes a sense of nostalgia as I reflect on my journey in public service. From my early days as a young parliamentarian in 2009, destiny has guided my path—from a backbencher and a member of the Finance Committee, to Deputy Minister for Finance, to Ranking Member of the Finance Committee, to Minority Leader, to Majority Leader and now, Minister responsible for Finance. 13. The invaluable experience I gained in this chamber has shaped my perspective, sharpened my focus, and prepared me for the task at hand. I fully commit to supporting the President to fix the economy. 14. I take this opportunity to extend my profound gratitude to the people of Ajumako Enyan Essiam, and to Mr. Speaker and members of this House, for your unwavering support throughout the years. 15. Mr. Speaker, this esteemed House is a sanctuary of rigorous debate, principled cooperation, and at times, constructive disagreement—all in the pursuit of the greater good of our beloved country. 16. I look forward to working with you, the Right Honourable Speaker, and my colleagues on both sides of the aisle, to reset Ghana’s economy through sound policy and structural reforms that will propel our nation forward.
+
+[5] Source: Budget Statement | Chunk ID: budget_p135_0 | Score: 0.5672
+Resetting the Economy for the Ghana We Want 2025 Budget 123 SECTION 7: CONCLUSION 757. Mr. Speaker, the state of the economy as I have just presented, does not reflect an economy that has turned the corner; it reflects an economy in severe distress, burdened by debt repayment humps, mismanagement and a lack of accountability. 758. This budget sets Ghana on a path of fiscal responsibility, debt sustainability, macroeconomic stability and job creation. It is about resetting the economy and restoring hope. 759. Ghanaians reaffirmed their faith in a better future when they actively participated in the National Economic Dialogue on 3rd and 4th March, 2025. 760. A key outcome of the Dialogue was the confirmation that the fundamental problem with our economy is fiscal indiscipline. 761. The NPP administration awarded contracts outside the expenditure framework. 762. They borrowed over and above Ghana’s capacity to repay. 763. Mr. Speaker, H.E John Mahama’s administration will be fiscally disciplined and deliver improved public services to our people in a cost-effective manner. 764. We remain steadfast in meeting the IMF programme targets while restoring Ghana’s creditworthiness. 765. We have achieved a lot in a short time, but this is only the beginning. Our commitment to reform will not waver. 766. Those who doubt our resolve underestimate the determination of the people of Ghana, who will no longer tolerate ineffective governance. 767. Together, we will navigate these turbulent times and emerge stronger. 768. Mr. Speaker, we are making progress: i. We committed to running a lean and efficient government of 60 ministers – We have delivered! ii. We committed to Scrapping the E-Levy – We have delivered! iii. We committed to scrapping the Betting (winnings) tax – We have delivered! iv. We committed to eliminate academic fees for first year public tertiary students – We have delivered! v. We committed to providing free tertiary education for all People with Disability – We have delivered! vi. We committed to having a dedicated source of funding for free secondary education – We have delivered!
+
+User Question:
+What does the 2025 budget say about economic policy?
+
+Answer:
+","The 2025 Budget Statement emphasizes a bold and decisive effort to restore macroeconomic stability and ensure fiscal and debt sustainability. It outlines a significant fiscal adjustment of about 5.3 percentage points of GDP, aiming to improve the primary balance from a deficit of 3.9 percent of GDP in 2024 to a surplus of 1.5 percent of GDP in 2025, and maintaining this surplus in the medium-term. The budget also highlights the need for fiscal discipline and accountability, addressing issues inherited from the previous administration, and includes commitments to reform and improve public services. (Source: Budget Statement)"
+2026-04-21T17:49:38.239859,What does the 2025 budget say about economic policy?,4,budget_p14_0,Budget Statement,0.5828852653503418,0.5555555555555556,0.0,0.5760528379016452,"Resetting the Economy for the Ghana We Want 2025 Budget 2 and increasingly export-driven industrial economy that fully utilises our national resources, capital and labour power. 8. We will be presenting the 24-Hour Economy policy to Parliament in due course. In this respect, the Labour Act, the Ghana Investment Promotion Centre Act and other enabling legislations will be reviewed. 9. Mr. Speaker, as part of efforts to stabilise the Cedi through foreign exchange and gold reserve accumulation, I will also submit a Bill to provide a legal framework for the establishment of the Ghana Gold Board for the consideration of this Honourable House. 10. Mr. Speaker, this Budget Speech is an abridged version of the 2025 Budget Statement and Economic Policy of Government. 11. I respectfully request the Hansard Department to capture the entire Budget Statement and Economic Policy of Government for the year ending 31st December 2025. 12. Mr. Speaker, standing here evokes a sense of nostalgia as I reflect on my journey in public service. From my early days as a young parliamentarian in 2009, destiny has guided my path—from a backbencher and a member of the Finance Committee, to Deputy Minister for Finance, to Ranking Member of the Finance Committee, to Minority Leader, to Majority Leader and now, Minister responsible for Finance. 13. The invaluable experience I gained in this chamber has shaped my perspective, sharpened my focus, and prepared me for the task at hand. I fully commit to supporting the President to fix the economy. 14. I take this opportunity to extend my profound gratitude to the people of Ajumako Enyan Essiam, and to Mr. Speaker and members of this House, for your unwavering support throughout the years. 15. Mr. Speaker, this esteemed House is a sanctuary of rigorous debate, principled cooperation, and at times, constructive disagreement—all in the pursuit of the greater good of our beloved country. 16. I look forward to working with you, the Right Honourable Speaker, and my colleagues on both sides of the aisle, to reset Ghana’s economy through sound policy and structural reforms that will propel our nation forward.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Budget Statement | Chunk ID: budget_p4_0 | Score: 0.6051
+THE 2025 BUDGET STATEMENT AND ECONOMIC POLICY OF GOVERNMENT The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year is available for public access. To purchase a physical copy, please contact the Ministry’s Public Relations Office at: Ministry of Finance Public Relations Office New Building, Ground Floor, Rooms 001 and 003 P. O. Box MB 40 Accra – Ghana Electronic copies can be downloaded from our website (www.mofep.gov.gh)
+
+[2] Source: Budget Statement | Chunk ID: budget_p77_0 | Score: 0.6023
+Resetting the Economy for the Ghana We Want 2025 Budget 65 iii End period inflation is expected to moderate from 23.8 percent in 2024 to 11.9 percent in 2025 and further to 8 percent from 2026 onwards; iv The Primary Balance on commitment basis is projected to improve from a deficit of 3.9 percent of GDP in 2024 to a surplus of 1.5 percent of GDP in 2025 and remain at a surplus of at least 1.5 percent of GDP from 2026 onwards; and v Gross International Reserve (including oil funds and encumbered/pledged assets) is expected to cover at least three (3) months of import of goods and services in 2025 and the medium-term. Medium-Term Fiscal Policy Framework 343. Mr. Speaker, the 2025 fiscal framework reflects a bold and decisive effort to restore macroeconomic stability and ensure fiscal and debt sustainability. To this end, the government is undertaking a significant fiscal adjustment of about 5.3 percentage points of GDP—one of the most ambitious in our history. The primary balance (commitment) is therefore programmed to improve from a deficit of 3.9 percent of GDP to a surplus of 1.5 percent of GDP. This adjustment is necessary to correct the unsustainable fiscal position inherited from the previous administration and to realign our public finances with government’s economic recovery objectives. 344. Mr. Speaker, we will sustain this momentum over the medium-term, with the primary balance on commitment basis maintained at a surplus of not less than 1.5 percent of GDP from 2026 and beyond. This commitment underscores our resolve to ensure debt sustainability, and create the fiscal space needed for long-term economic growth. 345. Mr. Speaker, we believe that the amendment of the Fiscal Responsibility Act, 2018 (Act 982), programmed to be enacted by Parliament alongside the approval of this budget, to include a debt rule and legislate an independent fiscal council to monitor the adherence to fiscal targets, will greatly support the achievement of fiscal targets for 2025 and the medium-term. 346. Mr. Speaker, to achieve this fiscal objective, Total Revenue and Grants are projected to moderate from 15.9 percent of GDP
+
+[3] Source: Budget Statement | Chunk ID: budget_p3_0 | Score: 0.5783
+The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year Presented to Parliament by DR. CASSIEL ATO FORSON (MP) MINISTER FOR FINANCE On Tuesday March 11, 2025 On the Authority of HIS EXCELLENCY JOHN DRAMANI MAHAMA PRESIDENT OF THE REPUBLIC OF GHANA In accordance with Section 28 of the Public Financial Management Act, 2016 (Act 921)
+
+[4] Source: Budget Statement | Chunk ID: budget_p14_0 | Score: 0.5761
+Resetting the Economy for the Ghana We Want 2025 Budget 2 and increasingly export-driven industrial economy that fully utilises our national resources, capital and labour power. 8. We will be presenting the 24-Hour Economy policy to Parliament in due course. In this respect, the Labour Act, the Ghana Investment Promotion Centre Act and other enabling legislations will be reviewed. 9. Mr. Speaker, as part of efforts to stabilise the Cedi through foreign exchange and gold reserve accumulation, I will also submit a Bill to provide a legal framework for the establishment of the Ghana Gold Board for the consideration of this Honourable House. 10. Mr. Speaker, this Budget Speech is an abridged version of the 2025 Budget Statement and Economic Policy of Government. 11. I respectfully request the Hansard Department to capture the entire Budget Statement and Economic Policy of Government for the year ending 31st December 2025. 12. Mr. Speaker, standing here evokes a sense of nostalgia as I reflect on my journey in public service. From my early days as a young parliamentarian in 2009, destiny has guided my path—from a backbencher and a member of the Finance Committee, to Deputy Minister for Finance, to Ranking Member of the Finance Committee, to Minority Leader, to Majority Leader and now, Minister responsible for Finance. 13. The invaluable experience I gained in this chamber has shaped my perspective, sharpened my focus, and prepared me for the task at hand. I fully commit to supporting the President to fix the economy. 14. I take this opportunity to extend my profound gratitude to the people of Ajumako Enyan Essiam, and to Mr. Speaker and members of this House, for your unwavering support throughout the years. 15. Mr. Speaker, this esteemed House is a sanctuary of rigorous debate, principled cooperation, and at times, constructive disagreement—all in the pursuit of the greater good of our beloved country. 16. I look forward to working with you, the Right Honourable Speaker, and my colleagues on both sides of the aisle, to reset Ghana’s economy through sound policy and structural reforms that will propel our nation forward.
+
+[5] Source: Budget Statement | Chunk ID: budget_p135_0 | Score: 0.5672
+Resetting the Economy for the Ghana We Want 2025 Budget 123 SECTION 7: CONCLUSION 757. Mr. Speaker, the state of the economy as I have just presented, does not reflect an economy that has turned the corner; it reflects an economy in severe distress, burdened by debt repayment humps, mismanagement and a lack of accountability. 758. This budget sets Ghana on a path of fiscal responsibility, debt sustainability, macroeconomic stability and job creation. It is about resetting the economy and restoring hope. 759. Ghanaians reaffirmed their faith in a better future when they actively participated in the National Economic Dialogue on 3rd and 4th March, 2025. 760. A key outcome of the Dialogue was the confirmation that the fundamental problem with our economy is fiscal indiscipline. 761. The NPP administration awarded contracts outside the expenditure framework. 762. They borrowed over and above Ghana’s capacity to repay. 763. Mr. Speaker, H.E John Mahama’s administration will be fiscally disciplined and deliver improved public services to our people in a cost-effective manner. 764. We remain steadfast in meeting the IMF programme targets while restoring Ghana’s creditworthiness. 765. We have achieved a lot in a short time, but this is only the beginning. Our commitment to reform will not waver. 766. Those who doubt our resolve underestimate the determination of the people of Ghana, who will no longer tolerate ineffective governance. 767. Together, we will navigate these turbulent times and emerge stronger. 768. Mr. Speaker, we are making progress: i. We committed to running a lean and efficient government of 60 ministers – We have delivered! ii. We committed to Scrapping the E-Levy – We have delivered! iii. We committed to scrapping the Betting (winnings) tax – We have delivered! iv. We committed to eliminate academic fees for first year public tertiary students – We have delivered! v. We committed to providing free tertiary education for all People with Disability – We have delivered! vi. We committed to having a dedicated source of funding for free secondary education – We have delivered!
+
+User Question:
+What does the 2025 budget say about economic policy?
+
+Answer:
+","The 2025 Budget Statement emphasizes a bold and decisive effort to restore macroeconomic stability and ensure fiscal and debt sustainability. It outlines a significant fiscal adjustment of about 5.3 percentage points of GDP, aiming to improve the primary balance from a deficit of 3.9 percent of GDP in 2024 to a surplus of 1.5 percent of GDP in 2025, and maintaining this surplus in the medium-term. The budget also highlights the need for fiscal discipline and accountability, addressing issues inherited from the previous administration, and includes commitments to reform and improve public services. (Source: Budget Statement)"
+2026-04-21T17:49:38.240636,What does the 2025 budget say about economic policy?,5,budget_p135_0,Budget Statement,0.5340967774391174,0.6666666666666666,0.0,0.5672392497460047,"Resetting the Economy for the Ghana We Want 2025 Budget 123 SECTION 7: CONCLUSION 757. Mr. Speaker, the state of the economy as I have just presented, does not reflect an economy that has turned the corner; it reflects an economy in severe distress, burdened by debt repayment humps, mismanagement and a lack of accountability. 758. This budget sets Ghana on a path of fiscal responsibility, debt sustainability, macroeconomic stability and job creation. It is about resetting the economy and restoring hope. 759. Ghanaians reaffirmed their faith in a better future when they actively participated in the National Economic Dialogue on 3rd and 4th March, 2025. 760. A key outcome of the Dialogue was the confirmation that the fundamental problem with our economy is fiscal indiscipline. 761. The NPP administration awarded contracts outside the expenditure framework. 762. They borrowed over and above Ghana’s capacity to repay. 763. Mr. Speaker, H.E John Mahama’s administration will be fiscally disciplined and deliver improved public services to our people in a cost-effective manner. 764. We remain steadfast in meeting the IMF programme targets while restoring Ghana’s creditworthiness. 765. We have achieved a lot in a short time, but this is only the beginning. Our commitment to reform will not waver. 766. Those who doubt our resolve underestimate the determination of the people of Ghana, who will no longer tolerate ineffective governance. 767. Together, we will navigate these turbulent times and emerge stronger. 768. Mr. Speaker, we are making progress: i. We committed to running a lean and efficient government of 60 ministers – We have delivered! ii. We committed to Scrapping the E-Levy – We have delivered! iii. We committed to scrapping the Betting (winnings) tax – We have delivered! iv. We committed to eliminate academic fees for first year public tertiary students – We have delivered! v. We committed to providing free tertiary education for all People with Disability – We have delivered! vi. We committed to having a dedicated source of funding for free secondary education – We have delivered!","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Budget Statement | Chunk ID: budget_p4_0 | Score: 0.6051
+THE 2025 BUDGET STATEMENT AND ECONOMIC POLICY OF GOVERNMENT The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year is available for public access. To purchase a physical copy, please contact the Ministry’s Public Relations Office at: Ministry of Finance Public Relations Office New Building, Ground Floor, Rooms 001 and 003 P. O. Box MB 40 Accra – Ghana Electronic copies can be downloaded from our website (www.mofep.gov.gh)
+
+[2] Source: Budget Statement | Chunk ID: budget_p77_0 | Score: 0.6023
+Resetting the Economy for the Ghana We Want 2025 Budget 65 iii End period inflation is expected to moderate from 23.8 percent in 2024 to 11.9 percent in 2025 and further to 8 percent from 2026 onwards; iv The Primary Balance on commitment basis is projected to improve from a deficit of 3.9 percent of GDP in 2024 to a surplus of 1.5 percent of GDP in 2025 and remain at a surplus of at least 1.5 percent of GDP from 2026 onwards; and v Gross International Reserve (including oil funds and encumbered/pledged assets) is expected to cover at least three (3) months of import of goods and services in 2025 and the medium-term. Medium-Term Fiscal Policy Framework 343. Mr. Speaker, the 2025 fiscal framework reflects a bold and decisive effort to restore macroeconomic stability and ensure fiscal and debt sustainability. To this end, the government is undertaking a significant fiscal adjustment of about 5.3 percentage points of GDP—one of the most ambitious in our history. The primary balance (commitment) is therefore programmed to improve from a deficit of 3.9 percent of GDP to a surplus of 1.5 percent of GDP. This adjustment is necessary to correct the unsustainable fiscal position inherited from the previous administration and to realign our public finances with government’s economic recovery objectives. 344. Mr. Speaker, we will sustain this momentum over the medium-term, with the primary balance on commitment basis maintained at a surplus of not less than 1.5 percent of GDP from 2026 and beyond. This commitment underscores our resolve to ensure debt sustainability, and create the fiscal space needed for long-term economic growth. 345. Mr. Speaker, we believe that the amendment of the Fiscal Responsibility Act, 2018 (Act 982), programmed to be enacted by Parliament alongside the approval of this budget, to include a debt rule and legislate an independent fiscal council to monitor the adherence to fiscal targets, will greatly support the achievement of fiscal targets for 2025 and the medium-term. 346. Mr. Speaker, to achieve this fiscal objective, Total Revenue and Grants are projected to moderate from 15.9 percent of GDP
+
+[3] Source: Budget Statement | Chunk ID: budget_p3_0 | Score: 0.5783
+The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year Presented to Parliament by DR. CASSIEL ATO FORSON (MP) MINISTER FOR FINANCE On Tuesday March 11, 2025 On the Authority of HIS EXCELLENCY JOHN DRAMANI MAHAMA PRESIDENT OF THE REPUBLIC OF GHANA In accordance with Section 28 of the Public Financial Management Act, 2016 (Act 921)
+
+[4] Source: Budget Statement | Chunk ID: budget_p14_0 | Score: 0.5761
+Resetting the Economy for the Ghana We Want 2025 Budget 2 and increasingly export-driven industrial economy that fully utilises our national resources, capital and labour power. 8. We will be presenting the 24-Hour Economy policy to Parliament in due course. In this respect, the Labour Act, the Ghana Investment Promotion Centre Act and other enabling legislations will be reviewed. 9. Mr. Speaker, as part of efforts to stabilise the Cedi through foreign exchange and gold reserve accumulation, I will also submit a Bill to provide a legal framework for the establishment of the Ghana Gold Board for the consideration of this Honourable House. 10. Mr. Speaker, this Budget Speech is an abridged version of the 2025 Budget Statement and Economic Policy of Government. 11. I respectfully request the Hansard Department to capture the entire Budget Statement and Economic Policy of Government for the year ending 31st December 2025. 12. Mr. Speaker, standing here evokes a sense of nostalgia as I reflect on my journey in public service. From my early days as a young parliamentarian in 2009, destiny has guided my path—from a backbencher and a member of the Finance Committee, to Deputy Minister for Finance, to Ranking Member of the Finance Committee, to Minority Leader, to Majority Leader and now, Minister responsible for Finance. 13. The invaluable experience I gained in this chamber has shaped my perspective, sharpened my focus, and prepared me for the task at hand. I fully commit to supporting the President to fix the economy. 14. I take this opportunity to extend my profound gratitude to the people of Ajumako Enyan Essiam, and to Mr. Speaker and members of this House, for your unwavering support throughout the years. 15. Mr. Speaker, this esteemed House is a sanctuary of rigorous debate, principled cooperation, and at times, constructive disagreement—all in the pursuit of the greater good of our beloved country. 16. I look forward to working with you, the Right Honourable Speaker, and my colleagues on both sides of the aisle, to reset Ghana’s economy through sound policy and structural reforms that will propel our nation forward.
+
+[5] Source: Budget Statement | Chunk ID: budget_p135_0 | Score: 0.5672
+Resetting the Economy for the Ghana We Want 2025 Budget 123 SECTION 7: CONCLUSION 757. Mr. Speaker, the state of the economy as I have just presented, does not reflect an economy that has turned the corner; it reflects an economy in severe distress, burdened by debt repayment humps, mismanagement and a lack of accountability. 758. This budget sets Ghana on a path of fiscal responsibility, debt sustainability, macroeconomic stability and job creation. It is about resetting the economy and restoring hope. 759. Ghanaians reaffirmed their faith in a better future when they actively participated in the National Economic Dialogue on 3rd and 4th March, 2025. 760. A key outcome of the Dialogue was the confirmation that the fundamental problem with our economy is fiscal indiscipline. 761. The NPP administration awarded contracts outside the expenditure framework. 762. They borrowed over and above Ghana’s capacity to repay. 763. Mr. Speaker, H.E John Mahama’s administration will be fiscally disciplined and deliver improved public services to our people in a cost-effective manner. 764. We remain steadfast in meeting the IMF programme targets while restoring Ghana’s creditworthiness. 765. We have achieved a lot in a short time, but this is only the beginning. Our commitment to reform will not waver. 766. Those who doubt our resolve underestimate the determination of the people of Ghana, who will no longer tolerate ineffective governance. 767. Together, we will navigate these turbulent times and emerge stronger. 768. Mr. Speaker, we are making progress: i. We committed to running a lean and efficient government of 60 ministers – We have delivered! ii. We committed to Scrapping the E-Levy – We have delivered! iii. We committed to scrapping the Betting (winnings) tax – We have delivered! iv. We committed to eliminate academic fees for first year public tertiary students – We have delivered! v. We committed to providing free tertiary education for all People with Disability – We have delivered! vi. We committed to having a dedicated source of funding for free secondary education – We have delivered!
+
+User Question:
+What does the 2025 budget say about economic policy?
+
+Answer:
+","The 2025 Budget Statement emphasizes a bold and decisive effort to restore macroeconomic stability and ensure fiscal and debt sustainability. It outlines a significant fiscal adjustment of about 5.3 percentage points of GDP, aiming to improve the primary balance from a deficit of 3.9 percent of GDP in 2024 to a surplus of 1.5 percent of GDP in 2025, and maintaining this surplus in the medium-term. The budget also highlights the need for fiscal discipline and accountability, addressing issues inherited from the previous administration, and includes commitments to reform and improve public services. (Source: Budget Statement)"
+2026-04-21T17:58:51.371714,who is the president?,1,budget_p15_0,Budget Statement,0.27587890625,1.0,0.0,0.4569091796875,"Resetting the Economy for the Ghana We Want 2025 Budget 3 21. That notwithstanding, our youth face an uncertain future with growing unemployment and hopelessness. This suggests that the dividends of democracy, such as economic prosperity and social justice, remain elusive. 22. Mr. Speaker, the choices before us are clear: we can either continue on a path of self- destruction by not confronting the problems or we can embark on a journey of fundamental reforms and transformation—one that resets our economic model, redefines our priorities, honours our social contract and provides opportunities for all. 23. Mr. Speaker, President Mahama has chosen the path of reforms and transformation. He will fix the economy. He will restore hope. And lead us to build the Ghana we want together. 24. This budget was preceded by the National Economic Dialogue on the theme “Resetting Ghana – Building the Economy We Want Together” on 3rd and 4th March, 2025. Through this consensus-building dialogue, the people demanded decisive action and real solutions to the severe challenges that plaque us. 25. Mr. Speaker, the 2025 budget is the culmination of the true aspirations, felt needs and genuine desires of the people of Ghana, expressed through engagements with diverse stakeholders. 26. As part of our broad consultations ahead of the budget, we recently engaged traders at major trading centers, including the Makola Market, to listen to their concerns, gauge their expectations and elicit their inputs. 27. Mr. Speaker, the extensive consultations revealed that the overriding concern among Ghanaian traders and the business community, remains price and exchange rate instability. 28. Apart from eroding their working capital, exchange rate volatilities make effective business planning impossible and increase the cost of doing business. 29. This budget outlines far-reaching measures which will be implemented in close collaboration with the Bank of Ghana, to effectively and efficiently manage the exchange rate and inflation. 30. Mr. Speaker, we also engaged the youth of Ghana in a dialogue on new media as part of our pre-budget consultations. 31. Mr. Speaker, during my engagement with the youth it was revealed that 321 pharmacists who were","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Budget Statement | Chunk ID: budget_p15_0 | Score: 0.4569
+Resetting the Economy for the Ghana We Want 2025 Budget 3 21. That notwithstanding, our youth face an uncertain future with growing unemployment and hopelessness. This suggests that the dividends of democracy, such as economic prosperity and social justice, remain elusive. 22. Mr. Speaker, the choices before us are clear: we can either continue on a path of self- destruction by not confronting the problems or we can embark on a journey of fundamental reforms and transformation—one that resets our economic model, redefines our priorities, honours our social contract and provides opportunities for all. 23. Mr. Speaker, President Mahama has chosen the path of reforms and transformation. He will fix the economy. He will restore hope. And lead us to build the Ghana we want together. 24. This budget was preceded by the National Economic Dialogue on the theme “Resetting Ghana – Building the Economy We Want Together” on 3rd and 4th March, 2025. Through this consensus-building dialogue, the people demanded decisive action and real solutions to the severe challenges that plaque us. 25. Mr. Speaker, the 2025 budget is the culmination of the true aspirations, felt needs and genuine desires of the people of Ghana, expressed through engagements with diverse stakeholders. 26. As part of our broad consultations ahead of the budget, we recently engaged traders at major trading centers, including the Makola Market, to listen to their concerns, gauge their expectations and elicit their inputs. 27. Mr. Speaker, the extensive consultations revealed that the overriding concern among Ghanaian traders and the business community, remains price and exchange rate instability. 28. Apart from eroding their working capital, exchange rate volatilities make effective business planning impossible and increase the cost of doing business. 29. This budget outlines far-reaching measures which will be implemented in close collaboration with the Bank of Ghana, to effectively and efficiently manage the exchange rate and inflation. 30. Mr. Speaker, we also engaged the youth of Ghana in a dialogue on new media as part of our pre-budget consultations. 31. Mr. Speaker, during my engagement with the youth it was revealed that 321 pharmacists who were
+
+[2] Source: Budget Statement | Chunk ID: budget_p14_1 | Score: 0.4263
+a sanctuary of rigorous debate, principled cooperation, and at times, constructive disagreement—all in the pursuit of the greater good of our beloved country. 16. I look forward to working with you, the Right Honourable Speaker, and my colleagues on both sides of the aisle, to reset Ghana’s economy through sound policy and structural reforms that will propel our nation forward. 17. Mr. Speaker, there comes a time in a nation’s history when fundamental challenges must be confronted, difficult choices must be made, and a new course must be set for the future. 18. For Ghana, that defining moment is now! 19. President John Dramani Mahama made a commitment to reset Ghana for jobs, accountability and prosperity for all, as captured in the NDC Manifesto. In this regard, the theme for this budget is “Resetting the Economy for the Ghana we Want”. 20. Mr. Speaker, the democratic ideals we tirelessly fought for, are being hailed. Our democracy has been consolidated with yet another peaceful transition of power.
+
+[3] Source: Budget Statement | Chunk ID: budget_p90_0 | Score: 0.4224
+Resetting the Economy for the Ghana We Want 2025 Budget 78 424. The Rt. Hon. Speaker, as part of the exercise of Parliamentary Diplomacy and Networking, hosted the following among others: i. The Conference of Speakers and Heads of African Parliaments (CoSAP); ii. The Rt.Hon. Ibrahim Boughali, the Speaker of the Algerian Parliament; iii. Executives of the General Legal Council and the Ghana Bar Association; iv. H.E Chief Fortune Z Charumbira-President of the Pan-African Parliament; v. H.E Adama Bictogo-President of the National Assembly of Cote-D’Ivoire; and vi. H.E Manish Gupta-The High Commissioner of the Republic of India to Ghana; 425. Mr. Speaker, Parliament completed the construction of the Office Complex for the Parliamentary Training Institute and the rehabilitation of the Eastern End Fence Wall Project. The conversion of the 2nd floor of the Chamber Block of Parliament into a Museum of Parliament was completed and inaugurated by the Rt. Hon. Speaker A.S.K Bagbin. The Museum was set up to preserve and tell the history of Parliament from the precolonial days to the republics, thereafter, aimed at preserving the Legislative History of Ghana. In 2025, Parliament will continue to discharge all constitutional obligations, including ongoing projects and programmes. Audit Service 426. Mr. Speaker, in 2024, the Audit Service recovered GH¢30,531,275.29 in unearned salaries, allowances, and other financial irregularities, which were deposited into the 'Auditor-General’s Recoveries Account' and transferred GH¢29,500,000.00 into the Consolidated Fund. 427. The Service submitted to Parliament, 13 Auditor-General reports for the financial year ending 31st December 2023 before the constitutional deadline of June 30th. Subsequently, 3 additional performance audit reports were submitted. The Service completed 6,181 audits, covering MDAs, MMDAs, educational institutions, public boards, traditional councils, special audits, reviews, and donor-requested audits representing 90.59 percent of the planned audit workload. 428. Mr. Speaker, the Service completed and commissioned the construction of 16 districts and three regional audit offices to reduce the Service's infrastructure deficit. In addition, the Service is constructing its regional offices in Kumasi and Tamale, which are 90 percent and 88 percent complete, respectively. 429. Mr. Speaker, to ensure transparency and accountability among public office holders,
+
+[4] Source: Budget Statement | Chunk ID: budget_p60_0 | Score: 0.4039
+Resetting the Economy for the Ghana We Want 2025 Budget 48 SECTION 4: 2025 AND MEDIUM-TERM POLICY OBJECTIVES AND TARGETS Introduction 227. Mr. Speaker, it is what it is. The state of our economy is troubling, but we will fix it! It will require some sacrifices, truthfulness, transparency and discipline. We will need bold measures to confront the situation head-on. 228. Mr. Speaker, the sacrifice must come from all stakeholders, beginning with the government. Thankfully, His Excellency, President John Dramani Mahama, appreciates this and has significantly downsized his government including reducing the number of his ministers to 60 from the initial 123, and later 88, of the previous government. He has also reduced the number of government ministries from 30 to 23. 229. Mr. Speaker, as part of it’s contribution to the resetting agenda, organised labour has followed suit by working with government and employers’ association to agree on a modest increase in base pay and minimum wage for 2025. On behalf of His Excellency the President, I would like to express our profound gratitude to organised labour and employers. 230. Mr. Speaker, ordinary Ghanaians have also sacrificed from contending with the negative impact of severe currency depreciation, hyperinflation, high food inflation, principal and interest haircuts, soaring interest rates, among others. 231. Mr. Speaker, it is now time for the peoples’ representatives, the Parliament of Ghana and the judiciary to follow suit. I would also like to call on all other stakeholders, including the business community, faith-based organisations, academia and civil society to support this national call. 232. Mr. Speaker, our immediate task is to reset our nation to restore good governance, reduce the excruciating suffering of our people and set our country on a trajectory of economic transformation. 233. Mr. Speaker, our vision is to build a prosperous and democratic state anchored on the principles of freedom and justice, providing equal opportunities for all. Through this vision, we will work together to build the Ghana we all want. 234. Mr. Speaker, the resetting
+
+User Question:
+who is the president?
+
+Answer:
+",The president is John Dramani Mahama. (Source: Budget Statement)
+2026-04-21T17:58:51.374260,who is the president?,2,budget_p14_1,Budget Statement,0.31842780113220215,0.75,0.0,0.4263208508491516,"a sanctuary of rigorous debate, principled cooperation, and at times, constructive disagreement—all in the pursuit of the greater good of our beloved country. 16. I look forward to working with you, the Right Honourable Speaker, and my colleagues on both sides of the aisle, to reset Ghana’s economy through sound policy and structural reforms that will propel our nation forward. 17. Mr. Speaker, there comes a time in a nation’s history when fundamental challenges must be confronted, difficult choices must be made, and a new course must be set for the future. 18. For Ghana, that defining moment is now! 19. President John Dramani Mahama made a commitment to reset Ghana for jobs, accountability and prosperity for all, as captured in the NDC Manifesto. In this regard, the theme for this budget is “Resetting the Economy for the Ghana we Want”. 20. Mr. Speaker, the democratic ideals we tirelessly fought for, are being hailed. Our democracy has been consolidated with yet another peaceful transition of power.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Budget Statement | Chunk ID: budget_p15_0 | Score: 0.4569
+Resetting the Economy for the Ghana We Want 2025 Budget 3 21. That notwithstanding, our youth face an uncertain future with growing unemployment and hopelessness. This suggests that the dividends of democracy, such as economic prosperity and social justice, remain elusive. 22. Mr. Speaker, the choices before us are clear: we can either continue on a path of self- destruction by not confronting the problems or we can embark on a journey of fundamental reforms and transformation—one that resets our economic model, redefines our priorities, honours our social contract and provides opportunities for all. 23. Mr. Speaker, President Mahama has chosen the path of reforms and transformation. He will fix the economy. He will restore hope. And lead us to build the Ghana we want together. 24. This budget was preceded by the National Economic Dialogue on the theme “Resetting Ghana – Building the Economy We Want Together” on 3rd and 4th March, 2025. Through this consensus-building dialogue, the people demanded decisive action and real solutions to the severe challenges that plaque us. 25. Mr. Speaker, the 2025 budget is the culmination of the true aspirations, felt needs and genuine desires of the people of Ghana, expressed through engagements with diverse stakeholders. 26. As part of our broad consultations ahead of the budget, we recently engaged traders at major trading centers, including the Makola Market, to listen to their concerns, gauge their expectations and elicit their inputs. 27. Mr. Speaker, the extensive consultations revealed that the overriding concern among Ghanaian traders and the business community, remains price and exchange rate instability. 28. Apart from eroding their working capital, exchange rate volatilities make effective business planning impossible and increase the cost of doing business. 29. This budget outlines far-reaching measures which will be implemented in close collaboration with the Bank of Ghana, to effectively and efficiently manage the exchange rate and inflation. 30. Mr. Speaker, we also engaged the youth of Ghana in a dialogue on new media as part of our pre-budget consultations. 31. Mr. Speaker, during my engagement with the youth it was revealed that 321 pharmacists who were
+
+[2] Source: Budget Statement | Chunk ID: budget_p14_1 | Score: 0.4263
+a sanctuary of rigorous debate, principled cooperation, and at times, constructive disagreement—all in the pursuit of the greater good of our beloved country. 16. I look forward to working with you, the Right Honourable Speaker, and my colleagues on both sides of the aisle, to reset Ghana’s economy through sound policy and structural reforms that will propel our nation forward. 17. Mr. Speaker, there comes a time in a nation’s history when fundamental challenges must be confronted, difficult choices must be made, and a new course must be set for the future. 18. For Ghana, that defining moment is now! 19. President John Dramani Mahama made a commitment to reset Ghana for jobs, accountability and prosperity for all, as captured in the NDC Manifesto. In this regard, the theme for this budget is “Resetting the Economy for the Ghana we Want”. 20. Mr. Speaker, the democratic ideals we tirelessly fought for, are being hailed. Our democracy has been consolidated with yet another peaceful transition of power.
+
+[3] Source: Budget Statement | Chunk ID: budget_p90_0 | Score: 0.4224
+Resetting the Economy for the Ghana We Want 2025 Budget 78 424. The Rt. Hon. Speaker, as part of the exercise of Parliamentary Diplomacy and Networking, hosted the following among others: i. The Conference of Speakers and Heads of African Parliaments (CoSAP); ii. The Rt.Hon. Ibrahim Boughali, the Speaker of the Algerian Parliament; iii. Executives of the General Legal Council and the Ghana Bar Association; iv. H.E Chief Fortune Z Charumbira-President of the Pan-African Parliament; v. H.E Adama Bictogo-President of the National Assembly of Cote-D’Ivoire; and vi. H.E Manish Gupta-The High Commissioner of the Republic of India to Ghana; 425. Mr. Speaker, Parliament completed the construction of the Office Complex for the Parliamentary Training Institute and the rehabilitation of the Eastern End Fence Wall Project. The conversion of the 2nd floor of the Chamber Block of Parliament into a Museum of Parliament was completed and inaugurated by the Rt. Hon. Speaker A.S.K Bagbin. The Museum was set up to preserve and tell the history of Parliament from the precolonial days to the republics, thereafter, aimed at preserving the Legislative History of Ghana. In 2025, Parliament will continue to discharge all constitutional obligations, including ongoing projects and programmes. Audit Service 426. Mr. Speaker, in 2024, the Audit Service recovered GH¢30,531,275.29 in unearned salaries, allowances, and other financial irregularities, which were deposited into the 'Auditor-General’s Recoveries Account' and transferred GH¢29,500,000.00 into the Consolidated Fund. 427. The Service submitted to Parliament, 13 Auditor-General reports for the financial year ending 31st December 2023 before the constitutional deadline of June 30th. Subsequently, 3 additional performance audit reports were submitted. The Service completed 6,181 audits, covering MDAs, MMDAs, educational institutions, public boards, traditional councils, special audits, reviews, and donor-requested audits representing 90.59 percent of the planned audit workload. 428. Mr. Speaker, the Service completed and commissioned the construction of 16 districts and three regional audit offices to reduce the Service's infrastructure deficit. In addition, the Service is constructing its regional offices in Kumasi and Tamale, which are 90 percent and 88 percent complete, respectively. 429. Mr. Speaker, to ensure transparency and accountability among public office holders,
+
+[4] Source: Budget Statement | Chunk ID: budget_p60_0 | Score: 0.4039
+Resetting the Economy for the Ghana We Want 2025 Budget 48 SECTION 4: 2025 AND MEDIUM-TERM POLICY OBJECTIVES AND TARGETS Introduction 227. Mr. Speaker, it is what it is. The state of our economy is troubling, but we will fix it! It will require some sacrifices, truthfulness, transparency and discipline. We will need bold measures to confront the situation head-on. 228. Mr. Speaker, the sacrifice must come from all stakeholders, beginning with the government. Thankfully, His Excellency, President John Dramani Mahama, appreciates this and has significantly downsized his government including reducing the number of his ministers to 60 from the initial 123, and later 88, of the previous government. He has also reduced the number of government ministries from 30 to 23. 229. Mr. Speaker, as part of it’s contribution to the resetting agenda, organised labour has followed suit by working with government and employers’ association to agree on a modest increase in base pay and minimum wage for 2025. On behalf of His Excellency the President, I would like to express our profound gratitude to organised labour and employers. 230. Mr. Speaker, ordinary Ghanaians have also sacrificed from contending with the negative impact of severe currency depreciation, hyperinflation, high food inflation, principal and interest haircuts, soaring interest rates, among others. 231. Mr. Speaker, it is now time for the peoples’ representatives, the Parliament of Ghana and the judiciary to follow suit. I would also like to call on all other stakeholders, including the business community, faith-based organisations, academia and civil society to support this national call. 232. Mr. Speaker, our immediate task is to reset our nation to restore good governance, reduce the excruciating suffering of our people and set our country on a trajectory of economic transformation. 233. Mr. Speaker, our vision is to build a prosperous and democratic state anchored on the principles of freedom and justice, providing equal opportunities for all. Through this vision, we will work together to build the Ghana we all want. 234. Mr. Speaker, the resetting
+
+User Question:
+who is the president?
+
+Answer:
+",The president is John Dramani Mahama. (Source: Budget Statement)
+2026-04-21T17:58:51.374860,who is the president?,3,budget_p90_0,Budget Statement,0.3132600784301758,0.75,0.0,0.42244505882263184,"Resetting the Economy for the Ghana We Want 2025 Budget 78 424. The Rt. Hon. Speaker, as part of the exercise of Parliamentary Diplomacy and Networking, hosted the following among others: i. The Conference of Speakers and Heads of African Parliaments (CoSAP); ii. The Rt.Hon. Ibrahim Boughali, the Speaker of the Algerian Parliament; iii. Executives of the General Legal Council and the Ghana Bar Association; iv. H.E Chief Fortune Z Charumbira-President of the Pan-African Parliament; v. H.E Adama Bictogo-President of the National Assembly of Cote-D’Ivoire; and vi. H.E Manish Gupta-The High Commissioner of the Republic of India to Ghana; 425. Mr. Speaker, Parliament completed the construction of the Office Complex for the Parliamentary Training Institute and the rehabilitation of the Eastern End Fence Wall Project. The conversion of the 2nd floor of the Chamber Block of Parliament into a Museum of Parliament was completed and inaugurated by the Rt. Hon. Speaker A.S.K Bagbin. The Museum was set up to preserve and tell the history of Parliament from the precolonial days to the republics, thereafter, aimed at preserving the Legislative History of Ghana. In 2025, Parliament will continue to discharge all constitutional obligations, including ongoing projects and programmes. Audit Service 426. Mr. Speaker, in 2024, the Audit Service recovered GH¢30,531,275.29 in unearned salaries, allowances, and other financial irregularities, which were deposited into the 'Auditor-General’s Recoveries Account' and transferred GH¢29,500,000.00 into the Consolidated Fund. 427. The Service submitted to Parliament, 13 Auditor-General reports for the financial year ending 31st December 2023 before the constitutional deadline of June 30th. Subsequently, 3 additional performance audit reports were submitted. The Service completed 6,181 audits, covering MDAs, MMDAs, educational institutions, public boards, traditional councils, special audits, reviews, and donor-requested audits representing 90.59 percent of the planned audit workload. 428. Mr. Speaker, the Service completed and commissioned the construction of 16 districts and three regional audit offices to reduce the Service's infrastructure deficit. In addition, the Service is constructing its regional offices in Kumasi and Tamale, which are 90 percent and 88 percent complete, respectively. 429. Mr. Speaker, to ensure transparency and accountability among public office holders,","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Budget Statement | Chunk ID: budget_p15_0 | Score: 0.4569
+Resetting the Economy for the Ghana We Want 2025 Budget 3 21. That notwithstanding, our youth face an uncertain future with growing unemployment and hopelessness. This suggests that the dividends of democracy, such as economic prosperity and social justice, remain elusive. 22. Mr. Speaker, the choices before us are clear: we can either continue on a path of self- destruction by not confronting the problems or we can embark on a journey of fundamental reforms and transformation—one that resets our economic model, redefines our priorities, honours our social contract and provides opportunities for all. 23. Mr. Speaker, President Mahama has chosen the path of reforms and transformation. He will fix the economy. He will restore hope. And lead us to build the Ghana we want together. 24. This budget was preceded by the National Economic Dialogue on the theme “Resetting Ghana – Building the Economy We Want Together” on 3rd and 4th March, 2025. Through this consensus-building dialogue, the people demanded decisive action and real solutions to the severe challenges that plaque us. 25. Mr. Speaker, the 2025 budget is the culmination of the true aspirations, felt needs and genuine desires of the people of Ghana, expressed through engagements with diverse stakeholders. 26. As part of our broad consultations ahead of the budget, we recently engaged traders at major trading centers, including the Makola Market, to listen to their concerns, gauge their expectations and elicit their inputs. 27. Mr. Speaker, the extensive consultations revealed that the overriding concern among Ghanaian traders and the business community, remains price and exchange rate instability. 28. Apart from eroding their working capital, exchange rate volatilities make effective business planning impossible and increase the cost of doing business. 29. This budget outlines far-reaching measures which will be implemented in close collaboration with the Bank of Ghana, to effectively and efficiently manage the exchange rate and inflation. 30. Mr. Speaker, we also engaged the youth of Ghana in a dialogue on new media as part of our pre-budget consultations. 31. Mr. Speaker, during my engagement with the youth it was revealed that 321 pharmacists who were
+
+[2] Source: Budget Statement | Chunk ID: budget_p14_1 | Score: 0.4263
+a sanctuary of rigorous debate, principled cooperation, and at times, constructive disagreement—all in the pursuit of the greater good of our beloved country. 16. I look forward to working with you, the Right Honourable Speaker, and my colleagues on both sides of the aisle, to reset Ghana’s economy through sound policy and structural reforms that will propel our nation forward. 17. Mr. Speaker, there comes a time in a nation’s history when fundamental challenges must be confronted, difficult choices must be made, and a new course must be set for the future. 18. For Ghana, that defining moment is now! 19. President John Dramani Mahama made a commitment to reset Ghana for jobs, accountability and prosperity for all, as captured in the NDC Manifesto. In this regard, the theme for this budget is “Resetting the Economy for the Ghana we Want”. 20. Mr. Speaker, the democratic ideals we tirelessly fought for, are being hailed. Our democracy has been consolidated with yet another peaceful transition of power.
+
+[3] Source: Budget Statement | Chunk ID: budget_p90_0 | Score: 0.4224
+Resetting the Economy for the Ghana We Want 2025 Budget 78 424. The Rt. Hon. Speaker, as part of the exercise of Parliamentary Diplomacy and Networking, hosted the following among others: i. The Conference of Speakers and Heads of African Parliaments (CoSAP); ii. The Rt.Hon. Ibrahim Boughali, the Speaker of the Algerian Parliament; iii. Executives of the General Legal Council and the Ghana Bar Association; iv. H.E Chief Fortune Z Charumbira-President of the Pan-African Parliament; v. H.E Adama Bictogo-President of the National Assembly of Cote-D’Ivoire; and vi. H.E Manish Gupta-The High Commissioner of the Republic of India to Ghana; 425. Mr. Speaker, Parliament completed the construction of the Office Complex for the Parliamentary Training Institute and the rehabilitation of the Eastern End Fence Wall Project. The conversion of the 2nd floor of the Chamber Block of Parliament into a Museum of Parliament was completed and inaugurated by the Rt. Hon. Speaker A.S.K Bagbin. The Museum was set up to preserve and tell the history of Parliament from the precolonial days to the republics, thereafter, aimed at preserving the Legislative History of Ghana. In 2025, Parliament will continue to discharge all constitutional obligations, including ongoing projects and programmes. Audit Service 426. Mr. Speaker, in 2024, the Audit Service recovered GH¢30,531,275.29 in unearned salaries, allowances, and other financial irregularities, which were deposited into the 'Auditor-General’s Recoveries Account' and transferred GH¢29,500,000.00 into the Consolidated Fund. 427. The Service submitted to Parliament, 13 Auditor-General reports for the financial year ending 31st December 2023 before the constitutional deadline of June 30th. Subsequently, 3 additional performance audit reports were submitted. The Service completed 6,181 audits, covering MDAs, MMDAs, educational institutions, public boards, traditional councils, special audits, reviews, and donor-requested audits representing 90.59 percent of the planned audit workload. 428. Mr. Speaker, the Service completed and commissioned the construction of 16 districts and three regional audit offices to reduce the Service's infrastructure deficit. In addition, the Service is constructing its regional offices in Kumasi and Tamale, which are 90 percent and 88 percent complete, respectively. 429. Mr. Speaker, to ensure transparency and accountability among public office holders,
+
+[4] Source: Budget Statement | Chunk ID: budget_p60_0 | Score: 0.4039
+Resetting the Economy for the Ghana We Want 2025 Budget 48 SECTION 4: 2025 AND MEDIUM-TERM POLICY OBJECTIVES AND TARGETS Introduction 227. Mr. Speaker, it is what it is. The state of our economy is troubling, but we will fix it! It will require some sacrifices, truthfulness, transparency and discipline. We will need bold measures to confront the situation head-on. 228. Mr. Speaker, the sacrifice must come from all stakeholders, beginning with the government. Thankfully, His Excellency, President John Dramani Mahama, appreciates this and has significantly downsized his government including reducing the number of his ministers to 60 from the initial 123, and later 88, of the previous government. He has also reduced the number of government ministries from 30 to 23. 229. Mr. Speaker, as part of it’s contribution to the resetting agenda, organised labour has followed suit by working with government and employers’ association to agree on a modest increase in base pay and minimum wage for 2025. On behalf of His Excellency the President, I would like to express our profound gratitude to organised labour and employers. 230. Mr. Speaker, ordinary Ghanaians have also sacrificed from contending with the negative impact of severe currency depreciation, hyperinflation, high food inflation, principal and interest haircuts, soaring interest rates, among others. 231. Mr. Speaker, it is now time for the peoples’ representatives, the Parliament of Ghana and the judiciary to follow suit. I would also like to call on all other stakeholders, including the business community, faith-based organisations, academia and civil society to support this national call. 232. Mr. Speaker, our immediate task is to reset our nation to restore good governance, reduce the excruciating suffering of our people and set our country on a trajectory of economic transformation. 233. Mr. Speaker, our vision is to build a prosperous and democratic state anchored on the principles of freedom and justice, providing equal opportunities for all. Through this vision, we will work together to build the Ghana we all want. 234. Mr. Speaker, the resetting
+
+User Question:
+who is the president?
+
+Answer:
+",The president is John Dramani Mahama. (Source: Budget Statement)
+2026-04-21T17:58:51.375305,who is the president?,4,budget_p60_0,Budget Statement,0.2884925603866577,0.75,0.0,0.4038694202899933,"Resetting the Economy for the Ghana We Want 2025 Budget 48 SECTION 4: 2025 AND MEDIUM-TERM POLICY OBJECTIVES AND TARGETS Introduction 227. Mr. Speaker, it is what it is. The state of our economy is troubling, but we will fix it! It will require some sacrifices, truthfulness, transparency and discipline. We will need bold measures to confront the situation head-on. 228. Mr. Speaker, the sacrifice must come from all stakeholders, beginning with the government. Thankfully, His Excellency, President John Dramani Mahama, appreciates this and has significantly downsized his government including reducing the number of his ministers to 60 from the initial 123, and later 88, of the previous government. He has also reduced the number of government ministries from 30 to 23. 229. Mr. Speaker, as part of it’s contribution to the resetting agenda, organised labour has followed suit by working with government and employers’ association to agree on a modest increase in base pay and minimum wage for 2025. On behalf of His Excellency the President, I would like to express our profound gratitude to organised labour and employers. 230. Mr. Speaker, ordinary Ghanaians have also sacrificed from contending with the negative impact of severe currency depreciation, hyperinflation, high food inflation, principal and interest haircuts, soaring interest rates, among others. 231. Mr. Speaker, it is now time for the peoples’ representatives, the Parliament of Ghana and the judiciary to follow suit. I would also like to call on all other stakeholders, including the business community, faith-based organisations, academia and civil society to support this national call. 232. Mr. Speaker, our immediate task is to reset our nation to restore good governance, reduce the excruciating suffering of our people and set our country on a trajectory of economic transformation. 233. Mr. Speaker, our vision is to build a prosperous and democratic state anchored on the principles of freedom and justice, providing equal opportunities for all. Through this vision, we will work together to build the Ghana we all want. 234. Mr. Speaker, the resetting agenda will be anchored on: i. restoring hope in our democracy, renewing trust in public officials,","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Budget Statement | Chunk ID: budget_p15_0 | Score: 0.4569
+Resetting the Economy for the Ghana We Want 2025 Budget 3 21. That notwithstanding, our youth face an uncertain future with growing unemployment and hopelessness. This suggests that the dividends of democracy, such as economic prosperity and social justice, remain elusive. 22. Mr. Speaker, the choices before us are clear: we can either continue on a path of self- destruction by not confronting the problems or we can embark on a journey of fundamental reforms and transformation—one that resets our economic model, redefines our priorities, honours our social contract and provides opportunities for all. 23. Mr. Speaker, President Mahama has chosen the path of reforms and transformation. He will fix the economy. He will restore hope. And lead us to build the Ghana we want together. 24. This budget was preceded by the National Economic Dialogue on the theme “Resetting Ghana – Building the Economy We Want Together” on 3rd and 4th March, 2025. Through this consensus-building dialogue, the people demanded decisive action and real solutions to the severe challenges that plaque us. 25. Mr. Speaker, the 2025 budget is the culmination of the true aspirations, felt needs and genuine desires of the people of Ghana, expressed through engagements with diverse stakeholders. 26. As part of our broad consultations ahead of the budget, we recently engaged traders at major trading centers, including the Makola Market, to listen to their concerns, gauge their expectations and elicit their inputs. 27. Mr. Speaker, the extensive consultations revealed that the overriding concern among Ghanaian traders and the business community, remains price and exchange rate instability. 28. Apart from eroding their working capital, exchange rate volatilities make effective business planning impossible and increase the cost of doing business. 29. This budget outlines far-reaching measures which will be implemented in close collaboration with the Bank of Ghana, to effectively and efficiently manage the exchange rate and inflation. 30. Mr. Speaker, we also engaged the youth of Ghana in a dialogue on new media as part of our pre-budget consultations. 31. Mr. Speaker, during my engagement with the youth it was revealed that 321 pharmacists who were
+
+[2] Source: Budget Statement | Chunk ID: budget_p14_1 | Score: 0.4263
+a sanctuary of rigorous debate, principled cooperation, and at times, constructive disagreement—all in the pursuit of the greater good of our beloved country. 16. I look forward to working with you, the Right Honourable Speaker, and my colleagues on both sides of the aisle, to reset Ghana’s economy through sound policy and structural reforms that will propel our nation forward. 17. Mr. Speaker, there comes a time in a nation’s history when fundamental challenges must be confronted, difficult choices must be made, and a new course must be set for the future. 18. For Ghana, that defining moment is now! 19. President John Dramani Mahama made a commitment to reset Ghana for jobs, accountability and prosperity for all, as captured in the NDC Manifesto. In this regard, the theme for this budget is “Resetting the Economy for the Ghana we Want”. 20. Mr. Speaker, the democratic ideals we tirelessly fought for, are being hailed. Our democracy has been consolidated with yet another peaceful transition of power.
+
+[3] Source: Budget Statement | Chunk ID: budget_p90_0 | Score: 0.4224
+Resetting the Economy for the Ghana We Want 2025 Budget 78 424. The Rt. Hon. Speaker, as part of the exercise of Parliamentary Diplomacy and Networking, hosted the following among others: i. The Conference of Speakers and Heads of African Parliaments (CoSAP); ii. The Rt.Hon. Ibrahim Boughali, the Speaker of the Algerian Parliament; iii. Executives of the General Legal Council and the Ghana Bar Association; iv. H.E Chief Fortune Z Charumbira-President of the Pan-African Parliament; v. H.E Adama Bictogo-President of the National Assembly of Cote-D’Ivoire; and vi. H.E Manish Gupta-The High Commissioner of the Republic of India to Ghana; 425. Mr. Speaker, Parliament completed the construction of the Office Complex for the Parliamentary Training Institute and the rehabilitation of the Eastern End Fence Wall Project. The conversion of the 2nd floor of the Chamber Block of Parliament into a Museum of Parliament was completed and inaugurated by the Rt. Hon. Speaker A.S.K Bagbin. The Museum was set up to preserve and tell the history of Parliament from the precolonial days to the republics, thereafter, aimed at preserving the Legislative History of Ghana. In 2025, Parliament will continue to discharge all constitutional obligations, including ongoing projects and programmes. Audit Service 426. Mr. Speaker, in 2024, the Audit Service recovered GH¢30,531,275.29 in unearned salaries, allowances, and other financial irregularities, which were deposited into the 'Auditor-General’s Recoveries Account' and transferred GH¢29,500,000.00 into the Consolidated Fund. 427. The Service submitted to Parliament, 13 Auditor-General reports for the financial year ending 31st December 2023 before the constitutional deadline of June 30th. Subsequently, 3 additional performance audit reports were submitted. The Service completed 6,181 audits, covering MDAs, MMDAs, educational institutions, public boards, traditional councils, special audits, reviews, and donor-requested audits representing 90.59 percent of the planned audit workload. 428. Mr. Speaker, the Service completed and commissioned the construction of 16 districts and three regional audit offices to reduce the Service's infrastructure deficit. In addition, the Service is constructing its regional offices in Kumasi and Tamale, which are 90 percent and 88 percent complete, respectively. 429. Mr. Speaker, to ensure transparency and accountability among public office holders,
+
+[4] Source: Budget Statement | Chunk ID: budget_p60_0 | Score: 0.4039
+Resetting the Economy for the Ghana We Want 2025 Budget 48 SECTION 4: 2025 AND MEDIUM-TERM POLICY OBJECTIVES AND TARGETS Introduction 227. Mr. Speaker, it is what it is. The state of our economy is troubling, but we will fix it! It will require some sacrifices, truthfulness, transparency and discipline. We will need bold measures to confront the situation head-on. 228. Mr. Speaker, the sacrifice must come from all stakeholders, beginning with the government. Thankfully, His Excellency, President John Dramani Mahama, appreciates this and has significantly downsized his government including reducing the number of his ministers to 60 from the initial 123, and later 88, of the previous government. He has also reduced the number of government ministries from 30 to 23. 229. Mr. Speaker, as part of it’s contribution to the resetting agenda, organised labour has followed suit by working with government and employers’ association to agree on a modest increase in base pay and minimum wage for 2025. On behalf of His Excellency the President, I would like to express our profound gratitude to organised labour and employers. 230. Mr. Speaker, ordinary Ghanaians have also sacrificed from contending with the negative impact of severe currency depreciation, hyperinflation, high food inflation, principal and interest haircuts, soaring interest rates, among others. 231. Mr. Speaker, it is now time for the peoples’ representatives, the Parliament of Ghana and the judiciary to follow suit. I would also like to call on all other stakeholders, including the business community, faith-based organisations, academia and civil society to support this national call. 232. Mr. Speaker, our immediate task is to reset our nation to restore good governance, reduce the excruciating suffering of our people and set our country on a trajectory of economic transformation. 233. Mr. Speaker, our vision is to build a prosperous and democratic state anchored on the principles of freedom and justice, providing equal opportunities for all. Through this vision, we will work together to build the Ghana we all want. 234. Mr. Speaker, the resetting
+
+User Question:
+who is the president?
+
+Answer:
+",The president is John Dramani Mahama. (Source: Budget Statement)
+2026-04-21T17:58:51.375698,who is the president?,5,budget_p3_0,Budget Statement,0.31531792879104614,0.5,0.0,0.3614884465932846,"The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year Presented to Parliament by DR. CASSIEL ATO FORSON (MP) MINISTER FOR FINANCE On Tuesday March 11, 2025 On the Authority of HIS EXCELLENCY JOHN DRAMANI MAHAMA PRESIDENT OF THE REPUBLIC OF GHANA In accordance with Section 28 of the Public Financial Management Act, 2016 (Act 921)","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say: ""I could not find this information in the provided documents.""
+3. Do not invent figures, dates, parties, regions, or policy statements.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+
+Retrieved Context:
+[1] Source: Budget Statement | Chunk ID: budget_p15_0 | Score: 0.4569
+Resetting the Economy for the Ghana We Want 2025 Budget 3 21. That notwithstanding, our youth face an uncertain future with growing unemployment and hopelessness. This suggests that the dividends of democracy, such as economic prosperity and social justice, remain elusive. 22. Mr. Speaker, the choices before us are clear: we can either continue on a path of self- destruction by not confronting the problems or we can embark on a journey of fundamental reforms and transformation—one that resets our economic model, redefines our priorities, honours our social contract and provides opportunities for all. 23. Mr. Speaker, President Mahama has chosen the path of reforms and transformation. He will fix the economy. He will restore hope. And lead us to build the Ghana we want together. 24. This budget was preceded by the National Economic Dialogue on the theme “Resetting Ghana – Building the Economy We Want Together” on 3rd and 4th March, 2025. Through this consensus-building dialogue, the people demanded decisive action and real solutions to the severe challenges that plaque us. 25. Mr. Speaker, the 2025 budget is the culmination of the true aspirations, felt needs and genuine desires of the people of Ghana, expressed through engagements with diverse stakeholders. 26. As part of our broad consultations ahead of the budget, we recently engaged traders at major trading centers, including the Makola Market, to listen to their concerns, gauge their expectations and elicit their inputs. 27. Mr. Speaker, the extensive consultations revealed that the overriding concern among Ghanaian traders and the business community, remains price and exchange rate instability. 28. Apart from eroding their working capital, exchange rate volatilities make effective business planning impossible and increase the cost of doing business. 29. This budget outlines far-reaching measures which will be implemented in close collaboration with the Bank of Ghana, to effectively and efficiently manage the exchange rate and inflation. 30. Mr. Speaker, we also engaged the youth of Ghana in a dialogue on new media as part of our pre-budget consultations. 31. Mr. Speaker, during my engagement with the youth it was revealed that 321 pharmacists who were
+
+[2] Source: Budget Statement | Chunk ID: budget_p14_1 | Score: 0.4263
+a sanctuary of rigorous debate, principled cooperation, and at times, constructive disagreement—all in the pursuit of the greater good of our beloved country. 16. I look forward to working with you, the Right Honourable Speaker, and my colleagues on both sides of the aisle, to reset Ghana’s economy through sound policy and structural reforms that will propel our nation forward. 17. Mr. Speaker, there comes a time in a nation’s history when fundamental challenges must be confronted, difficult choices must be made, and a new course must be set for the future. 18. For Ghana, that defining moment is now! 19. President John Dramani Mahama made a commitment to reset Ghana for jobs, accountability and prosperity for all, as captured in the NDC Manifesto. In this regard, the theme for this budget is “Resetting the Economy for the Ghana we Want”. 20. Mr. Speaker, the democratic ideals we tirelessly fought for, are being hailed. Our democracy has been consolidated with yet another peaceful transition of power.
+
+[3] Source: Budget Statement | Chunk ID: budget_p90_0 | Score: 0.4224
+Resetting the Economy for the Ghana We Want 2025 Budget 78 424. The Rt. Hon. Speaker, as part of the exercise of Parliamentary Diplomacy and Networking, hosted the following among others: i. The Conference of Speakers and Heads of African Parliaments (CoSAP); ii. The Rt.Hon. Ibrahim Boughali, the Speaker of the Algerian Parliament; iii. Executives of the General Legal Council and the Ghana Bar Association; iv. H.E Chief Fortune Z Charumbira-President of the Pan-African Parliament; v. H.E Adama Bictogo-President of the National Assembly of Cote-D’Ivoire; and vi. H.E Manish Gupta-The High Commissioner of the Republic of India to Ghana; 425. Mr. Speaker, Parliament completed the construction of the Office Complex for the Parliamentary Training Institute and the rehabilitation of the Eastern End Fence Wall Project. The conversion of the 2nd floor of the Chamber Block of Parliament into a Museum of Parliament was completed and inaugurated by the Rt. Hon. Speaker A.S.K Bagbin. The Museum was set up to preserve and tell the history of Parliament from the precolonial days to the republics, thereafter, aimed at preserving the Legislative History of Ghana. In 2025, Parliament will continue to discharge all constitutional obligations, including ongoing projects and programmes. Audit Service 426. Mr. Speaker, in 2024, the Audit Service recovered GH¢30,531,275.29 in unearned salaries, allowances, and other financial irregularities, which were deposited into the 'Auditor-General’s Recoveries Account' and transferred GH¢29,500,000.00 into the Consolidated Fund. 427. The Service submitted to Parliament, 13 Auditor-General reports for the financial year ending 31st December 2023 before the constitutional deadline of June 30th. Subsequently, 3 additional performance audit reports were submitted. The Service completed 6,181 audits, covering MDAs, MMDAs, educational institutions, public boards, traditional councils, special audits, reviews, and donor-requested audits representing 90.59 percent of the planned audit workload. 428. Mr. Speaker, the Service completed and commissioned the construction of 16 districts and three regional audit offices to reduce the Service's infrastructure deficit. In addition, the Service is constructing its regional offices in Kumasi and Tamale, which are 90 percent and 88 percent complete, respectively. 429. Mr. Speaker, to ensure transparency and accountability among public office holders,
+
+[4] Source: Budget Statement | Chunk ID: budget_p60_0 | Score: 0.4039
+Resetting the Economy for the Ghana We Want 2025 Budget 48 SECTION 4: 2025 AND MEDIUM-TERM POLICY OBJECTIVES AND TARGETS Introduction 227. Mr. Speaker, it is what it is. The state of our economy is troubling, but we will fix it! It will require some sacrifices, truthfulness, transparency and discipline. We will need bold measures to confront the situation head-on. 228. Mr. Speaker, the sacrifice must come from all stakeholders, beginning with the government. Thankfully, His Excellency, President John Dramani Mahama, appreciates this and has significantly downsized his government including reducing the number of his ministers to 60 from the initial 123, and later 88, of the previous government. He has also reduced the number of government ministries from 30 to 23. 229. Mr. Speaker, as part of it’s contribution to the resetting agenda, organised labour has followed suit by working with government and employers’ association to agree on a modest increase in base pay and minimum wage for 2025. On behalf of His Excellency the President, I would like to express our profound gratitude to organised labour and employers. 230. Mr. Speaker, ordinary Ghanaians have also sacrificed from contending with the negative impact of severe currency depreciation, hyperinflation, high food inflation, principal and interest haircuts, soaring interest rates, among others. 231. Mr. Speaker, it is now time for the peoples’ representatives, the Parliament of Ghana and the judiciary to follow suit. I would also like to call on all other stakeholders, including the business community, faith-based organisations, academia and civil society to support this national call. 232. Mr. Speaker, our immediate task is to reset our nation to restore good governance, reduce the excruciating suffering of our people and set our country on a trajectory of economic transformation. 233. Mr. Speaker, our vision is to build a prosperous and democratic state anchored on the principles of freedom and justice, providing equal opportunities for all. Through this vision, we will work together to build the Ghana we all want. 234. Mr. Speaker, the resetting
+
+User Question:
+who is the president?
+
+Answer:
+",The president is John Dramani Mahama. (Source: Budget Statement)
