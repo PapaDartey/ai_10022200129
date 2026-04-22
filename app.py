@@ -49,10 +49,7 @@ st.title("A-City Ghana Policy and Election RAG Assistant")
 st.caption("Manual RAG chatbot")
 
 with st.sidebar:
-    st.header("Project details")
-    st.write("Student: Papa Yaw Dartey")
-    st.write("Index number: 10022200129")
-    st.write("Course: CS4241 Introduction to Artificial Intelligence")
+    
     top_k = st.slider("Top-k retrieved chunks", 3, 10, 5)
     max_words = st.slider("Context window size, words", 300, 2000, 1200, step=100)
     strict_prompt = st.checkbox("Use strict hallucination-control prompt", value=True)
@@ -67,7 +64,7 @@ except Exception as exc:
     st.error(f"Could not initialise the RAG system: {exc}")
     st.stop()
 
-tab_chat, tab_data, tab_logs, tab_docs = st.tabs(["Chat", "Dataset", "Logs", "How it works"])
+tab_chat, tab_data, tab_logs = st.tabs(["Chat", "Dataset", "Logs"])
 
 with tab_chat:
     if "messages" not in st.session_state:
@@ -79,29 +76,7 @@ with tab_chat:
         with st.chat_message(message["role"]):
             st.write(message["content"])
 
-    query = st.chat_input("Ask a question, for example: Who won the 2020 election?")
-
-    if query:
-        st.session_state["messages"].append({"role": "user", "content": query})
-        with st.chat_message("user"):
-            st.write(query)
-
-        with st.chat_message("assistant"):
-            with st.spinner("Running manual RAG pipeline..."):
-                feedback_records = read_feedback(FEEDBACK_LOG_PATH)
-                retrieved = hybrid_retrieve(query, embedder, store, top_k=top_k, feedback_records=feedback_records)
-                selected_context = select_context(retrieved, max_words=max_words)
-                context_text = format_context(selected_context)
-                final_prompt = build_prompt(query, selected_context, strict=strict_prompt)
-                answer = generate_answer(final_prompt, context_text)
-
-            st.write(answer)
-            st.session_state["messages"].append({"role": "assistant", "content": answer})
-            st.session_state["last_query"] = query
-            st.session_state["last_retrieved"] = retrieved
-            st.session_state["last_prompt"] = final_prompt
-            st.session_state["last_answer"] = answer
-            log_retrieval(RETRIEVAL_LOG_PATH, query, retrieved, final_prompt, answer)
+    
 
     if "last_answer" in st.session_state:
         with st.expander("Retrieved chunks and scores", expanded=True):
@@ -149,19 +124,33 @@ with tab_logs:
     else:
         st.info("No feedback has been recorded yet.")
 
-with tab_docs:
-    st.markdown("""
-### Manual RAG design
 
-1. Load and clean the election CSV and the budget PDF.
-2. Convert election rows into factual chunks.
-3. Add aggregate election summary chunks for national and regional winner questions.
-4. Convert budget pages into overlapping word chunks.
-5. Generate embeddings using SentenceTransformers.
-6. Store embeddings manually in FAISS.
-7. Retrieve top-k chunks using vector similarity.
-8. Re-score using hybrid keyword overlap and feedback.
-9. Select context within a word limit.
-10. Build a prompt manually.
-11. Send the prompt to the LLM and log all stages.
-""")
+query = st.chat_input("Ask a question, for example: Who won the 2020 election?")
+
+if query:
+    st.session_state["messages"].append({"role": "user", "content": query})
+
+    with st.spinner("Running manual RAG pipeline..."):
+        feedback_records = read_feedback(FEEDBACK_LOG_PATH)
+        retrieved = hybrid_retrieve(
+            query,
+            embedder,
+            store,
+            top_k=top_k,
+            feedback_records=feedback_records
+        )
+
+        selected_context = select_context(retrieved, max_words=max_words)
+        context_text = format_context(selected_context)
+        final_prompt = build_prompt(query, selected_context, strict=strict_prompt)
+        answer = generate_answer(final_prompt, context_text)
+
+    st.session_state["messages"].append({"role": "assistant", "content": answer})
+    st.session_state["last_query"] = query
+    st.session_state["last_retrieved"] = retrieved
+    st.session_state["last_prompt"] = final_prompt
+    st.session_state["last_answer"] = answer
+
+    log_retrieval(RETRIEVAL_LOG_PATH, query, retrieved, final_prompt, answer)
+
+    st.rerun()
