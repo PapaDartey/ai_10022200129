@@ -1,4 +1,4 @@
-# A-City Ghana Policy and Election RAG Assistant
+# PoliWise Ghana
 
 Student:Papa Yaw Dartey 
 Index Number: 10022200129 
