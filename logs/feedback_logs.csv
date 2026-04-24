@@ -1,1 +1,11 @@
 timestamp,query,chunk_id,feedback
+2026-04-23T22:24:22.067708,Who was the president in 2020?,election_summary_region_2020_Upper_East_Region,Relevant
+2026-04-23T23:02:08.420895,Who won the 2020 election?,election_summary_national_helper_2020,Relevant
+2026-04-23T23:02:31.764862,Who won the 2020 election?,election_summary_national_2020,Relevant
+2026-04-23T23:45:09.463420,Which candidate got the highest votes in Greater Accra Region in 2020?,election_summary_region_2020_Greater_Accra_Region,Relevant
+2026-04-24T00:42:50.850086,Who is the current president in 2025?,budget_p15_0,Relevant
+2026-04-24T00:43:03.283065,Who is the current president in 2025?,budget_p3_0,Relevant
+2026-04-24T17:27:27.330354,What does the 2025 Budget Statement say about economic policy?,budget_p3_0,Relevant
+2026-04-24T17:48:24.166158,Who won in Ahafo Region in 2020?,election_summary_region_2020_Ahafo_Region,Relevant
+2026-04-24T17:48:26.210161,Who won in Ahafo Region in 2020?,election_summary_region_2020_Upper_East_Region,Relevant
+2026-04-24T17:48:27.981927,Who won in Ahafo Region in 2020?,election_summary_region_2020_Ahafo_Region,Relevant

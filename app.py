@@ -17,7 +17,7 @@ from src.logger import log_retrieval, log_feedback, read_feedback
 load_dotenv()
 
 st.set_page_config(
-    page_title="A-City Ghana Policy and Election RAG Assistant",
+    page_title="PoliWise Ghana",
     page_icon="🤖",
     layout="wide"
 )
@@ -45,7 +45,7 @@ def initialise_rag():
     return election_df, budget_pages, chunks, embedder, store
 
 
-st.title("A-City Ghana Policy and Election RAG Assistant")
+st.title("PoliWise Ghana")
 st.caption("Manual RAG chatbot")
 
 with st.sidebar:
@@ -79,13 +79,14 @@ with tab_chat:
     
 
     if "last_answer" in st.session_state:
-        with st.expander("Retrieved chunks and scores", expanded=True):
+        with st.expander("Retrieved chunks and scores", expanded=False):
             for item in st.session_state["last_retrieved"]:
                 st.markdown(f"**{item['chunk_id']} | {item['source']} | final score {item['final_score']:.4f}**")
                 st.caption(
                     f"Vector: {item.get('vector_score', 0):.4f} | "
                     f"Keyword: {item.get('keyword_score', 0):.4f} | "
-                    f"Feedback: {item.get('feedback_score', 0):.4f}"
+                    f"Feedback: {item.get('feedback_score', 0):.4f} | "
+                    f"Domain: {item.get('domain_score', 0):.4f}"
                 )
                 st.write(item["text"])
                 col1, col2 = st.columns(2)
@@ -103,6 +104,7 @@ with tab_chat:
             st.code(st.session_state["last_prompt"])
 
 with tab_data:
+    
     st.subheader("Cleaned election dataset preview")
     st.dataframe(election_df.head(30), use_container_width=True)
 
