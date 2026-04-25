@@ -72,7 +72,6 @@ data/2025-Budget-Statement-and-Economic-Policy.pdf
 See:
 
 ```text
-docs/architecture.md
 assets/architecture_diagram.png
 ```
 
