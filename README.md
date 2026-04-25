@@ -81,7 +81,6 @@ assets/architecture_diagram.png
 See:
 
 ```text
-docs/manual_experiment_logs.md
 logs/prompt_experiments.csv
 logs/adversarial_tests.csv
 ```
