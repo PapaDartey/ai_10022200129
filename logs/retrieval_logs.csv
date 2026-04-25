@@ -6324,3 +6324,173 @@ Who won the 202 election?
 
 Answer:
 ",Nana Akufo Addo of the NPP won the national election in 2020 in Ghana. This information is confirmed in the retrieved context. (Source: Election Dataset)
+2026-04-24T19:23:47.011486,Who won the 2020 election?,1,election_summary_national_helper_2020,Election Dataset,0.567440927028656,1.0,0.05,0.8755806952714921,"For the question 'Who won the 2020 election in Ghana?', the correct national answer from this dataset is: Nana Akufo Addo of the NPP won the national election.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say exactly: ""I couldn’t find a reliable answer to that in the available data. Try rephrasing your question or asking about a related topic""
+3. Do not invent figures, dates, parties, regions, policy statements, winners, or summaries.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+6. Do not infer a national election winner from regional results alone.
+7. Only state a national winner if the retrieved context explicitly contains a national summary or a clearly aggregated national result.
+8. If the context contains only regional results and the user asks a national question, say that the retrieved context does not clearly provide the national result.
+9. If multiple retrieved chunks conflict or point to different regions or candidates, do not guess. State that the context is insufficient or mixed.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_national_helper_2020 | Score: 0.8756
+For the question 'Who won the 2020 election in Ghana?', the correct national answer from this dataset is: Nana Akufo Addo of the NPP won the national election.
+
+[2] Source: Election Dataset | Chunk ID: election_summary_national_2020 | Score: 0.7844
+Verified national election summary for Ghana in 2020. The national winner of the 2020 Ghana presidential election was Nana Akufo Addo of the NPP. Nana Akufo Addo received 6,776,066 total votes across the dataset. The runner-up was John Dramani Mahama of the NDC with 6,265,266 votes. The winning margin was 510,800 votes. The total votes represented in this national summary were 13,218,076. This chunk describes the national result, not a regional result.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_national_helper_2000 | Score: 0.7312
+For the question 'Who won the 2000 election in Ghana?', the correct national answer from this dataset is: J. A. Kuffour of the NPP won the national election.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2020_Upper_East_Region | Score: 0.5189
+Verified regional election summary for Ghana in 2020. In Upper East Region, the regional winner of the 2020 Ghana election was John Dramani Mahama of the NDC. John Dramani Mahama received 335,502 votes in Upper East Region. The runner-up in Upper East Region was Nana Akufo Addo of the NPP with 170,340 votes. The winning margin in Upper East Region was 165,162 votes. The total votes represented in this regional summary were 518,712. This chunk describes the result for Upper East Region only, not the national result.
+
+[5] Source: Election Dataset | Chunk ID: election_summary_region_2020_Greater_Accra_Region | Score: 0.4688
+Verified regional election summary for Ghana in 2020. In Greater Accra Region, the regional winner of the 2020 Ghana election was John Dramani Mahama of the NDC. John Dramani Mahama received 1,326,489 votes in Greater Accra Region. The runner-up in Greater Accra Region was Nana Akufo Addo of the NPP with 1,253,179 votes. The winning margin in Greater Accra Region was 73,310 votes. The total votes represented in this regional summary were 2,602,510. This chunk describes the result for Greater Accra Region only, not the national result.
+
+User Question:
+Who won the 2020 election?
+
+Answer:
+",Nana Akufo Addo of the NPP won the national election in 2020 in Ghana. (Source: Election Dataset)
+2026-04-24T19:23:47.012565,Who won the 2020 election?,2,election_summary_national_2020,Election Dataset,0.5125258564949036,0.6,0.05,0.7843943923711778,"Verified national election summary for Ghana in 2020. The national winner of the 2020 Ghana presidential election was Nana Akufo Addo of the NPP. Nana Akufo Addo received 6,776,066 total votes across the dataset. The runner-up was John Dramani Mahama of the NDC with 6,265,266 votes. The winning margin was 510,800 votes. The total votes represented in this national summary were 13,218,076. This chunk describes the national result, not a regional result.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say exactly: ""I couldn’t find a reliable answer to that in the available data. Try rephrasing your question or asking about a related topic""
+3. Do not invent figures, dates, parties, regions, policy statements, winners, or summaries.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+6. Do not infer a national election winner from regional results alone.
+7. Only state a national winner if the retrieved context explicitly contains a national summary or a clearly aggregated national result.
+8. If the context contains only regional results and the user asks a national question, say that the retrieved context does not clearly provide the national result.
+9. If multiple retrieved chunks conflict or point to different regions or candidates, do not guess. State that the context is insufficient or mixed.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_national_helper_2020 | Score: 0.8756
+For the question 'Who won the 2020 election in Ghana?', the correct national answer from this dataset is: Nana Akufo Addo of the NPP won the national election.
+
+[2] Source: Election Dataset | Chunk ID: election_summary_national_2020 | Score: 0.7844
+Verified national election summary for Ghana in 2020. The national winner of the 2020 Ghana presidential election was Nana Akufo Addo of the NPP. Nana Akufo Addo received 6,776,066 total votes across the dataset. The runner-up was John Dramani Mahama of the NDC with 6,265,266 votes. The winning margin was 510,800 votes. The total votes represented in this national summary were 13,218,076. This chunk describes the national result, not a regional result.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_national_helper_2000 | Score: 0.7312
+For the question 'Who won the 2000 election in Ghana?', the correct national answer from this dataset is: J. A. Kuffour of the NPP won the national election.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2020_Upper_East_Region | Score: 0.5189
+Verified regional election summary for Ghana in 2020. In Upper East Region, the regional winner of the 2020 Ghana election was John Dramani Mahama of the NDC. John Dramani Mahama received 335,502 votes in Upper East Region. The runner-up in Upper East Region was Nana Akufo Addo of the NPP with 170,340 votes. The winning margin in Upper East Region was 165,162 votes. The total votes represented in this regional summary were 518,712. This chunk describes the result for Upper East Region only, not the national result.
+
+[5] Source: Election Dataset | Chunk ID: election_summary_region_2020_Greater_Accra_Region | Score: 0.4688
+Verified regional election summary for Ghana in 2020. In Greater Accra Region, the regional winner of the 2020 Ghana election was John Dramani Mahama of the NDC. John Dramani Mahama received 1,326,489 votes in Greater Accra Region. The runner-up in Greater Accra Region was Nana Akufo Addo of the NPP with 1,253,179 votes. The winning margin in Greater Accra Region was 73,310 votes. The total votes represented in this regional summary were 2,602,510. This chunk describes the result for Greater Accra Region only, not the national result.
+
+User Question:
+Who won the 2020 election?
+
+Answer:
+",Nana Akufo Addo of the NPP won the national election in 2020 in Ghana. (Source: Election Dataset)
+2026-04-24T19:23:47.012788,Who won the 2020 election?,3,election_summary_national_helper_2000,Election Dataset,0.5083023905754089,0.8,0.0,0.7312267929315567,"For the question 'Who won the 2000 election in Ghana?', the correct national answer from this dataset is: J. A. Kuffour of the NPP won the national election.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say exactly: ""I couldn’t find a reliable answer to that in the available data. Try rephrasing your question or asking about a related topic""
+3. Do not invent figures, dates, parties, regions, policy statements, winners, or summaries.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+6. Do not infer a national election winner from regional results alone.
+7. Only state a national winner if the retrieved context explicitly contains a national summary or a clearly aggregated national result.
+8. If the context contains only regional results and the user asks a national question, say that the retrieved context does not clearly provide the national result.
+9. If multiple retrieved chunks conflict or point to different regions or candidates, do not guess. State that the context is insufficient or mixed.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_national_helper_2020 | Score: 0.8756
+For the question 'Who won the 2020 election in Ghana?', the correct national answer from this dataset is: Nana Akufo Addo of the NPP won the national election.
+
+[2] Source: Election Dataset | Chunk ID: election_summary_national_2020 | Score: 0.7844
+Verified national election summary for Ghana in 2020. The national winner of the 2020 Ghana presidential election was Nana Akufo Addo of the NPP. Nana Akufo Addo received 6,776,066 total votes across the dataset. The runner-up was John Dramani Mahama of the NDC with 6,265,266 votes. The winning margin was 510,800 votes. The total votes represented in this national summary were 13,218,076. This chunk describes the national result, not a regional result.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_national_helper_2000 | Score: 0.7312
+For the question 'Who won the 2000 election in Ghana?', the correct national answer from this dataset is: J. A. Kuffour of the NPP won the national election.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2020_Upper_East_Region | Score: 0.5189
+Verified regional election summary for Ghana in 2020. In Upper East Region, the regional winner of the 2020 Ghana election was John Dramani Mahama of the NDC. John Dramani Mahama received 335,502 votes in Upper East Region. The runner-up in Upper East Region was Nana Akufo Addo of the NPP with 170,340 votes. The winning margin in Upper East Region was 165,162 votes. The total votes represented in this regional summary were 518,712. This chunk describes the result for Upper East Region only, not the national result.
+
+[5] Source: Election Dataset | Chunk ID: election_summary_region_2020_Greater_Accra_Region | Score: 0.4688
+Verified regional election summary for Ghana in 2020. In Greater Accra Region, the regional winner of the 2020 Ghana election was John Dramani Mahama of the NDC. John Dramani Mahama received 1,326,489 votes in Greater Accra Region. The runner-up in Greater Accra Region was Nana Akufo Addo of the NPP with 1,253,179 votes. The winning margin in Greater Accra Region was 73,310 votes. The total votes represented in this regional summary were 2,602,510. This chunk describes the result for Greater Accra Region only, not the national result.
+
+User Question:
+Who won the 2020 election?
+
+Answer:
+",Nana Akufo Addo of the NPP won the national election in 2020 in Ghana. (Source: Election Dataset)
+2026-04-24T19:23:47.012941,Who won the 2020 election?,4,election_summary_region_2020_Upper_East_Region,Election Dataset,0.4652595818042755,0.6,0.1,0.5189446863532067,"Verified regional election summary for Ghana in 2020. In Upper East Region, the regional winner of the 2020 Ghana election was John Dramani Mahama of the NDC. John Dramani Mahama received 335,502 votes in Upper East Region. The runner-up in Upper East Region was Nana Akufo Addo of the NPP with 170,340 votes. The winning margin in Upper East Region was 165,162 votes. The total votes represented in this regional summary were 518,712. This chunk describes the result for Upper East Region only, not the national result.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say exactly: ""I couldn’t find a reliable answer to that in the available data. Try rephrasing your question or asking about a related topic""
+3. Do not invent figures, dates, parties, regions, policy statements, winners, or summaries.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+6. Do not infer a national election winner from regional results alone.
+7. Only state a national winner if the retrieved context explicitly contains a national summary or a clearly aggregated national result.
+8. If the context contains only regional results and the user asks a national question, say that the retrieved context does not clearly provide the national result.
+9. If multiple retrieved chunks conflict or point to different regions or candidates, do not guess. State that the context is insufficient or mixed.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_national_helper_2020 | Score: 0.8756
+For the question 'Who won the 2020 election in Ghana?', the correct national answer from this dataset is: Nana Akufo Addo of the NPP won the national election.
+
+[2] Source: Election Dataset | Chunk ID: election_summary_national_2020 | Score: 0.7844
+Verified national election summary for Ghana in 2020. The national winner of the 2020 Ghana presidential election was Nana Akufo Addo of the NPP. Nana Akufo Addo received 6,776,066 total votes across the dataset. The runner-up was John Dramani Mahama of the NDC with 6,265,266 votes. The winning margin was 510,800 votes. The total votes represented in this national summary were 13,218,076. This chunk describes the national result, not a regional result.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_national_helper_2000 | Score: 0.7312
+For the question 'Who won the 2000 election in Ghana?', the correct national answer from this dataset is: J. A. Kuffour of the NPP won the national election.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2020_Upper_East_Region | Score: 0.5189
+Verified regional election summary for Ghana in 2020. In Upper East Region, the regional winner of the 2020 Ghana election was John Dramani Mahama of the NDC. John Dramani Mahama received 335,502 votes in Upper East Region. The runner-up in Upper East Region was Nana Akufo Addo of the NPP with 170,340 votes. The winning margin in Upper East Region was 165,162 votes. The total votes represented in this regional summary were 518,712. This chunk describes the result for Upper East Region only, not the national result.
+
+[5] Source: Election Dataset | Chunk ID: election_summary_region_2020_Greater_Accra_Region | Score: 0.4688
+Verified regional election summary for Ghana in 2020. In Greater Accra Region, the regional winner of the 2020 Ghana election was John Dramani Mahama of the NDC. John Dramani Mahama received 1,326,489 votes in Greater Accra Region. The runner-up in Greater Accra Region was Nana Akufo Addo of the NPP with 1,253,179 votes. The winning margin in Greater Accra Region was 73,310 votes. The total votes represented in this regional summary were 2,602,510. This chunk describes the result for Greater Accra Region only, not the national result.
+
+User Question:
+Who won the 2020 election?
+
+Answer:
+",Nana Akufo Addo of the NPP won the national election in 2020 in Ghana. (Source: Election Dataset)
+2026-04-24T19:23:47.013088,Who won the 2020 election?,5,election_summary_region_2020_Greater_Accra_Region,Election Dataset,0.46509814262390137,0.6,0.05,0.4688236069679261,"Verified regional election summary for Ghana in 2020. In Greater Accra Region, the regional winner of the 2020 Ghana election was John Dramani Mahama of the NDC. John Dramani Mahama received 1,326,489 votes in Greater Accra Region. The runner-up in Greater Accra Region was Nana Akufo Addo of the NPP with 1,253,179 votes. The winning margin in Greater Accra Region was 73,310 votes. The total votes represented in this regional summary were 2,602,510. This chunk describes the result for Greater Accra Region only, not the national result.","You are an Academic City AI assistant answering questions using only the retrieved context.
+
+Rules:
+1. Use only the provided context.
+2. If the answer is not in the context, say exactly: ""I couldn’t find a reliable answer to that in the available data. Try rephrasing your question or asking about a related topic""
+3. Do not invent figures, dates, parties, regions, policy statements, winners, or summaries.
+4. Cite the source type as either Election Dataset or Budget Statement.
+5. Give a clear and concise answer.
+6. Do not infer a national election winner from regional results alone.
+7. Only state a national winner if the retrieved context explicitly contains a national summary or a clearly aggregated national result.
+8. If the context contains only regional results and the user asks a national question, say that the retrieved context does not clearly provide the national result.
+9. If multiple retrieved chunks conflict or point to different regions or candidates, do not guess. State that the context is insufficient or mixed.
+
+Retrieved Context:
+[1] Source: Election Dataset | Chunk ID: election_summary_national_helper_2020 | Score: 0.8756
+For the question 'Who won the 2020 election in Ghana?', the correct national answer from this dataset is: Nana Akufo Addo of the NPP won the national election.
+
+[2] Source: Election Dataset | Chunk ID: election_summary_national_2020 | Score: 0.7844
+Verified national election summary for Ghana in 2020. The national winner of the 2020 Ghana presidential election was Nana Akufo Addo of the NPP. Nana Akufo Addo received 6,776,066 total votes across the dataset. The runner-up was John Dramani Mahama of the NDC with 6,265,266 votes. The winning margin was 510,800 votes. The total votes represented in this national summary were 13,218,076. This chunk describes the national result, not a regional result.
+
+[3] Source: Election Dataset | Chunk ID: election_summary_national_helper_2000 | Score: 0.7312
+For the question 'Who won the 2000 election in Ghana?', the correct national answer from this dataset is: J. A. Kuffour of the NPP won the national election.
+
+[4] Source: Election Dataset | Chunk ID: election_summary_region_2020_Upper_East_Region | Score: 0.5189
+Verified regional election summary for Ghana in 2020. In Upper East Region, the regional winner of the 2020 Ghana election was John Dramani Mahama of the NDC. John Dramani Mahama received 335,502 votes in Upper East Region. The runner-up in Upper East Region was Nana Akufo Addo of the NPP with 170,340 votes. The winning margin in Upper East Region was 165,162 votes. The total votes represented in this regional summary were 518,712. This chunk describes the result for Upper East Region only, not the national result.
+
+[5] Source: Election Dataset | Chunk ID: election_summary_region_2020_Greater_Accra_Region | Score: 0.4688
+Verified regional election summary for Ghana in 2020. In Greater Accra Region, the regional winner of the 2020 Ghana election was John Dramani Mahama of the NDC. John Dramani Mahama received 1,326,489 votes in Greater Accra Region. The runner-up in Greater Accra Region was Nana Akufo Addo of the NPP with 1,253,179 votes. The winning margin in Greater Accra Region was 73,310 votes. The total votes represented in this regional summary were 2,602,510. This chunk describes the result for Greater Accra Region only, not the national result.
+
+User Question:
+Who won the 2020 election?
+
+Answer:
+",Nana Akufo Addo of the NPP won the national election in 2020 in Ghana. (Source: Election Dataset)
