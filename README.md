@@ -64,6 +64,10 @@ data/2025-Budget-Statement-and-Economic-Policy.pdf
 - Display of similarity scores
 - Display of final prompt sent to the LLM
 - Retrieval and feedback logs
+<img width="1920" height="1080" alt="Screenshot 2026-04-24 at 1 33 38 AM" src="https://github.com/user-attachments/assets/f13f2675-f759-44aa-bf8e-d7fc9011317c" />
+<img width="1569" height="839" alt="Screenshot 2026-04-24 at 7 24 32 PM" src="https://github.com/user-attachments/assets/22ed5813-2ecd-495d-8c30-6d9828916931" />
+<img width="1318" height="583" alt="Screenshot 2026-04-24 at 5 49 02 PM" src="https://github.com/user-attachments/assets/513e45f5-9b34-42f7-9f71-4e29b93bfccb" />
+
 
 ## Architecture
 
