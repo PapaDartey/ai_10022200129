@@ -1,8 +1,6 @@
 # PoliWise Ghana
 
-Student:Papa Yaw Dartey 
-Index Number: 10022200129 
-Course: CS4241 Introduction to Artificial Intelligence 2026  
+Papa Yaw Dartey  
 
 ## Project overview
 
